@@ -2,5 +2,6 @@ import Classes.*
 
 fun main() {
 
-    val b = CSVBalance("/home/nicola/Desktop/file.csv")
+    val b = BalanceParser("/home/nicola/Desktop/copiatest.xlsx")
+
 }
