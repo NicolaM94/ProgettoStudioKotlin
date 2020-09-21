@@ -1,6 +1,6 @@
 package Classes
 
-class Asset (val id:Double, name:String, type:String, value:Double) {
+open class Asset (val id:Double, name:String, type:String, value:Double) {
 
     var name:String = name
 
@@ -16,7 +16,7 @@ class Asset (val id:Double, name:String, type:String, value:Double) {
 
 }
 
-class Debt (val id:Double,name:String, type: String, value: Double) {
+open class Debt (val id:Double,name:String, type: String, value: Double) {
 
     var name:String = name
 
@@ -32,7 +32,7 @@ class Debt (val id:Double,name:String, type: String, value: Double) {
 
 }
 
-class Cost (val id:Double, name:String, type: String, value: Double) {
+open class Cost (val id:Double, name:String, type: String, value: Double)  {
 
     var name:String = name
 
@@ -47,7 +47,7 @@ class Cost (val id:Double, name:String, type: String, value: Double) {
     fun valueChanger (newValue:Double) { value=newValue }
 }
 
-class Revenue (val id:Double, name: String, type: String, value: Double) {
+open class Revenue (val id:Double, name: String, type: String, value: Double) {
 
     var name:String = name
 
