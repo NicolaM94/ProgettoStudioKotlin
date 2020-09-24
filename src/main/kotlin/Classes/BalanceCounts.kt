@@ -1,8 +1,9 @@
 package Classes
 
 
+open class Active (id:Double, name:String, type:String, value:Double) {
 
-open class Active (val id:Double, name:String, type:String, value:Double) {
+    val id:Double = id
 
     var name:String = name
 
@@ -19,7 +20,9 @@ open class Active (val id:Double, name:String, type:String, value:Double) {
 
 }
 
-open class Passive (val id:Double, name:String, type: String, value: Double) {
+open class Passive (id:Double, name:String, type: String, value: Double) {
+
+    val id:Double = id
 
     var name:String = name
 
@@ -35,7 +38,9 @@ open class Passive (val id:Double, name:String, type: String, value: Double) {
 
 }
 
-open class Cost (val id:Double, name:String, type: String, value: Double)  {
+open class Cost (id:Double, name:String, type: String, value: Double)  {
+
+    val id:Double = id
 
     var name:String = name
 
@@ -50,7 +55,9 @@ open class Cost (val id:Double, name:String, type: String, value: Double)  {
     fun valueChanger (newValue:Double) { value=newValue }
 }
 
-open class Revenue (val id:Double, name: String, type: String, value: Double) {
+open class Revenue (id:Double, name: String, type: String, value: Double) {
+
+    val id:Double = id
 
     var name:String = name
 

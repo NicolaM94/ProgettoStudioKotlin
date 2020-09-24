@@ -6,27 +6,28 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook
 import java.nio.file.Paths
 
 class BalanceCollector (pathToBalance:String) {
+    
+    val mapOfCounts: MutableMap<Int,String> = mutableMapOf()
 
-    val baseSetOfCounts = mutableMapOf<String,String>()
-
+    /**Assigning indexes to counts IDs*/
     init {
         val workingPath = Paths.get("").toAbsolutePath().toString()
         val file = File (workingPath+"/pdc.csv")
         val reader = csvReader().readAll(file)
-        reader.forEach { el -> println(el) }
+        reader.forEach { sublist ->
+            mapOfCounts.set(sublist[0].toInt(),sublist[1])
+        }
     }
-
-
-
 
     private val path = File(pathToBalance)
     private val reader = XSSFWorkbook(path)
 
-    val activeMap: MutableMap<String, Active> = mutableMapOf()
-    val passiveMap: MutableMap<String,Passive> = mutableMapOf()
-    val costsMap: MutableMap<String,Cost> = mutableMapOf()
-    val revenuesMap: MutableMap<String,Revenue> = mutableMapOf()
+    val activeMap: MutableMap<Int, Active> = mutableMapOf()
+    val passiveMap: MutableMap<Int,Passive> = mutableMapOf()
+    val costsMap: MutableMap<Int,Cost> = mutableMapOf()
+    val revenuesMap: MutableMap<Int,Revenue> = mutableMapOf()
 
+    /**Collecting values from the balance*/
     init {
         var sheet = reader.getSheet("Stato Patrimoniale")
         //Dumping assets and debts
@@ -34,7 +35,7 @@ class BalanceCollector (pathToBalance:String) {
             var testCell = row.getCell(0)?.toString() ?: "null"
             if (testCell.startsWith("1")) {
                 activeMap.set(
-                    testCell, Active(
+                    mapOfCounts.getValue(testCell.take(5).toInt()).toInt(), Active(
                         testCell.toDouble(),
                         row.getCell(1).toString(),
                         "asset",
@@ -47,7 +48,7 @@ class BalanceCollector (pathToBalance:String) {
             var testCell = row.getCell(3)?.toString() ?: "null"
             if (testCell.startsWith("2")) {
                 passiveMap.set(
-                    testCell, Passive(
+                    mapOfCounts.getValue(testCell.take(5).toInt()).toInt(), Passive(
                         testCell.toDouble(),
                         row.getCell(4).toString(),
                         "debt",
@@ -64,7 +65,7 @@ class BalanceCollector (pathToBalance:String) {
             var testCell = row.getCell(0)?.toString() ?:"null"
             if (testCell.startsWith("3")) {
                 costsMap.set(
-                    testCell, Cost (
+                    mapOfCounts.getValue(testCell.take(5).toInt()).toInt(), Cost (
                         testCell.toDouble(),
                         row.getCell(1).toString(),
                         "cost",
@@ -77,7 +78,7 @@ class BalanceCollector (pathToBalance:String) {
             var testCell = row.getCell(3)?.toString() ?:"null"
             if (testCell.startsWith("4")) {
                 revenuesMap.set(
-                    testCell, Revenue (
+                    mapOfCounts.getValue(testCell.take(5).toInt()).toInt(), Revenue (
                         testCell.toDouble(),
                         row.getCell(4).toString(),
                         "revenue",
@@ -88,16 +89,16 @@ class BalanceCollector (pathToBalance:String) {
         }
 
         /*activeMap.forEach { el ->
-            println("${el.key} : ${el.value.name},${el.value.type}, ${el.value.value}")
+            println("${el.key} : ${el.value.id},${el.value.name},${el.value.type}, ${el.value.value}")
         }
         passiveMap.forEach { el ->
-            println("${el.key} : ${el.value.name},${el.value.type}, ${el.value.value}")
+            println("${el.key} : ${el.value.id},${el.value.name},${el.value.type}, ${el.value.value}")
         }
         costsMap.forEach { el ->
-            println("${el.key} : ${el.value.name},${el.value.type}, ${el.value.value}")
+            println("${el.key} : ${el.value.id},${el.value.name},${el.value.type}, ${el.value.value}")
         }
         revenuesMap.forEach { el ->
-            println("${el.key} : ${el.value.name},${el.value.type}, ${el.value.value}")
+            println("${el.key} : ${el.value.id},${el.value.name},${el.value.type}, ${el.value.value}")
         }*/
     }
 
@@ -131,6 +132,50 @@ class BalanceCollector (pathToBalance:String) {
         return result
     }
 
-
-
+    /**Assets MicroAreas*/
+    fun creditsVsAssociates () :Double {
+        var result: Double = 0.00
+        activeMap.forEach {el ->
+            if (el.key in 1..6) {
+                result += el.value.value
+            }
+        }
+        return result
+    }
+    fun plantCosts () :Double {
+        var result = 0.00
+        activeMap.forEach { el ->
+            if (el.key in 7..10) {
+                result += el.value.value
+            }
+        }
+        return result
+    }
+    fun rAndDCosts () :Double {
+        var result = 0.00
+        activeMap.forEach { el ->
+            if (el.key in 11..13) {
+                result += el.value.value
+            }
+        }
+        return result
+    }
+    fun patents () :Double {
+        var result = 0.00
+        activeMap.forEach { el ->
+            if (el in 14..20) {
+                result += el.value.value
+            }
+        }
+        return result
+    }
+    fun licences () :Double {
+        var result = 0.00
+        activeMap.forEach{el ->
+            if (el.key in 21..28) {
+                result += el.value.value
+            }
+        }
+        return result
+    }
 }
