@@ -1,0 +1,1461 @@
+10011;Soci c/sottoscrizione;asset;long;1
+10012;Azionisti c/sottoscrizione;asset;long;2
+10013;Consorziati c/sottoscrizione;asset;long;3
+10020;Soci c/prestazioni d'opera e di servizi;asset;long;4
+10030;Soci c/decimi richiamati;asset;long;5
+10040;Soci morosi c/decimi richiamati;asset;long;6
+11010;Costi di costituzione;asset;long;7
+11020;Costi per modifiche statutarie;asset;long;8
+11030;Costi di ampliamento;asset;long;9
+11040;Costi di start up;asset;long;10
+11110;Costi di ricerca e sviluppo;asset;long;11
+11120;Costi di pubblicità;asset;long;12
+11130;Costi di sviluppo;asset;long;13
+11210;Diritti di brevetto;asset;long;14
+11220;Diritti d'autore;asset;long;15
+11231;Software di proprietà;asset;long;16
+11232;Software in licenza d'uso a tempo indeterminato;asset;long;17
+11233;Software di produzione interna tutelato;asset;long;18
+11241;Contratti di know-how;asset;long;19
+11242;Know-how di produzione interna tutelato;asset;long;20
+11310;Concessioni;asset;long;21
+11321;Licenze amministrative;asset;long;22
+11322;Software in licenza d'uso a tempo determinato;asset;long;23
+11323;Licenze d'uso;asset;long;24
+11330;Marchi;asset;long;25
+11341;Diritti di franchising;asset;long;26
+11342;Diritti di esclusiva;asset;long;27
+11350;Costi di acquisizione dei vincoli sportivi		;asset;long;28
+11410;Avviamento;asset;long;29
+11510;Immobilizzazioni immateriali in corso	;asset;long;30
+11520;Acconti e caparre a fornitori di imm. immateriali	;asset;long;31
+11610;Migliorie e spese incrementative su beni di terzi	;asset;long;32
+11620;Oneri accessori su finanziamenti e leasing	;asset;long;33
+11630;Costi per certificazione di qualità	;asset;long;34
+11640;Costi per realizzazione del sito Internet	;asset;long;35
+11650;Software di produzione interna non tutelato	;asset;long;36
+11660;Know-how di produzione interna non tutelato	;asset;long;37
+11670;Oneri pluriennali;asset;long;38
+12010;Terreni	;asset;long;39
+12021;Fabbricati industriali	;asset;long;40
+12022;Fabbricati civili	;asset;long;41
+12023;Fabbricati abitativi	;asset;long;42
+12030;Costruzioni leggere;asset;long;43
+12111;Impianti generici	;asset;long;44
+12112;Impianti specifici	;asset;long;45
+12121;Macchinari automatici	;asset;long;46
+12122;Macchinari non automatici;asset;long;47
+12210;Attrezzatura industriale	;asset;long;48
+12220;Attrezzatura commerciale	;asset;long;49
+12230;Attrezzatura varia e minuta;asset;long;50
+12310;Mobili e arredi	;asset;long;51
+12320;Macchine ordinarie d'ufficio	;asset;long;52
+12330;Macchine elettroniche d'ufficio	;asset;long;53
+12340;Sistemi telefonici elettronici	;asset;long;54
+12350;Autovetture motoveicoli e simili	;asset;long;55
+12360;Autoveicoli da trasporto;asset;long;56
+12410;Immobilizzazioni materiali in corso	;asset;long;57
+12420;Acconti e caparre a fornitori di imm. materiali	;asset;long;58
+13010;Partecipazioni immobilizzate	;asset;long;59
+13060;Partecipazioni non immobilizzate;asset;short;60
+13110;Crediti finanziari immobilizzati	;asset;long;61
+13160;Crediti finanziari non immobilizzati	;asset;short;62
+13170;Versamenti c/consolidato fiscale;asset;long;63
+13210;Titoli di Stato immobilizzati	;asset;long;64
+13220;Obbligazioni immobilizzate	;asset;long;65
+13230;Altri titoli immobilizzati	;asset;long;66
+13260;Titoli di Stato non immobilizzati	;asset;short;67
+13270;Obbligazioni non immobilizzate	;asset;short;68
+13280;Altri titoli non immobilizzati;asset;short;69
+13310;Azioni proprie immobilizzate	;asset;long;70
+13360;Azioni proprie non immobilizzate;asset;short;71
+13410;Depositi cauzionali immobilizzati	;asset;long;72
+13420;Associante c/apporto	;asset;long;73
+13430;Crediti v/assicurazioni per TFR assicurato	;asset;long;74
+13440;Acconti e caparre a fornitori di imm. finanziarie	;asset;long;75
+13460;Depositi cauzionali non immobilizzati;asset;short;76
+13510;Derivati attivi di copertura immobilizzati	;asset;long;77
+13520;Derivati attivi non di copertura immobilizzati	;asset;long;78
+13560;Derivati attivi di copertura non immobilizzati	;asset;short;79
+13570;Derivati attivi non di copertura non immobilizzati;asset;short;80
+14011;Rimanenze di materie prime	;asset;short;81
+14012;Rimanenze di materie sussidiarie	;asset;short;82
+14013;Rimanenze di materie di consumo	;asset;short;83
+14021;Rimanenze di prodotti in corso di lavorazione	;asset;short;84
+14022;Rimanenze di semilavorati	;asset;short;85
+14031;Rimanenze di lavori in corso su ordinazione	;asset;short;86
+14032;Rimanenze di immobili in corso di costruzione	;asset;short;87
+14041;Rimanenze di prodotti finiti	;asset;short;88
+14042;Rimanenze di immobili destinati alla rivendita	;asset;short;89
+14043;Rimanenze di merci	;asset;short;90
+14044;Immobilizz. materiali destinate alla rivendita	;asset;short;91
+14045;Rimanenze di prodotti soggetti ad aggio	;asset;short;92
+14046;Rimanenze di beni usati	;asset;short;93
+14050;Acconti a fornitori di materie e merci	;asset;short;94
+14060;Caparre a fornitori di merci e prodotti;asset;short;95
+14500;Crediti v/clienti	;asset;short;96
+14994;Rettifica crediti v/clienti da attualizzazione	;asset;short;97
+14996;Clienti c/documento riepilogativo	;asset;short;98
+14998;Crediti verso clienti	;asset;short;99
+14999;Annotazione NO IVA;asset;short;100
+15010;Fatture da emettere	;asset;short;101
+15040;Crediti v/clienti per spese anticipate	;asset;short;102
+15070;Crediti v/clienti per incassi con contrassegno	;asset;short;103
+15080;Crediti per corrispettivi fatturati	;asset;short;104
+15090;Crediti per corrispettivi non incassati	;asset;short;105
+15091;Crediti per corrispettivi da ticket restaurant	;asset;short;106
+15099;Altri crediti v/clienti;asset;short;107
+15110;Ricevute bancarie	;asset;short;108
+15120;Effetti attivi	;asset;short;109
+15130;Effetti all'incasso	;asset;short;110
+15140;Effetti allo sconto	;asset;short;111
+15150;Effetti insoluti e protestati	;asset;short;112
+16010;Erario c/ritenute subite su depositi bancari	;asset;short;113
+16020;Erario c/ritenute subite su depositi postali	;asset;short;114
+16030;Erario c/ritenute subite su provvigioni	;asset;short;115
+16040;Erario c/ritenute subite a titolo di acconto	;asset;short;116
+16050;Erario c/ritenute subite a titolo d'imposta	;asset;short;117
+16060;Erario c/ritenute subite su attività finanziarie	;asset;short;118
+16070;Erario c/ritenute subite beneficiari 36/55%	;asset;short;119
+16080;Erario c/ritenute subite da enti pubblici	;asset;short;120
+16085;Erario c/ritenute subite pignoramento presso terzi	;asset;short;121
+16099;Erario c/ritenute subite diverse;asset;short;122
+16110;Erario c/acconto IRES	;asset;short;123
+16115;Erario c/acconto maggiorazione IRES	;asset;short;124
+16120;Erario c/IRES a credito	;asset;short;125
+16125;Erario c/maggiorazione IRES a credito	;asset;short;126
+16131;Erario c/IRES a rimborso	;asset;short;127
+16132;Erario c/interessi su IRES a rimborso	;asset;short;128
+16140;Erario c/IRES in compensazione;asset;short;129
+16210;Regioni c/acconto IRAP	;asset;short;130
+16220;Regioni c/IRAP a credito	;asset;short;131
+16231;Regioni c/IRAP a rimborso	;asset;short;132
+16232;Regioni c/interessi su IRAP a rimborso	;asset;short;133
+16240;Regioni c/IRAP in compensazione	;asset;short;134
+16250;Regioni c/credito d'imposta Irap L.190/2014 c.21;asset;short;135
+16310;IVA c/acquisti	;asset;short;136
+16315;IVA c/acquisti agricoltura	;asset;short;137
+16316;IVA c/acquisti L.398/91	;asset;short;138
+16320;IVA a detraibilità differita	;asset;short;139
+16330;Erario c/IVA	;asset;short;140
+16335;Iva di gruppo c/liquidazioni	;asset;short;141
+16340;Erario c/acconto IVA	;asset;short;142
+16351;Erario c/IVA a rimborso	;asset;short;143
+16352;Erario c/interessi su IVA a rimborso	;asset;short;144
+16360;Erario c/IVA in compensazione	;asset;short;145
+16365;IVA c/compensazione anno successivo	;asset;short;146
+16370;Erario c/IVA versata in eccedenza	;asset;short;147
+16375;Iva c/eccedenze versamento anno successivo	;asset;short;148
+16380;Iva a credito Immatricolazione Auto UE;;;149
+16411;Erario c/acconto imposta sostitutiva rival. TFR	;asset;short;150
+16412;Erario c/imposta sostitutiva rival. TFR a credito	;asset;short;151
+16421;Erario c/ritenute su lavoro dipendente a credito	;asset;short;152
+16422;Erario c/ritenute collab./amministr. a credito	;asset;short;153
+16423;Erario c/ritenute su lavoro autonomo a credito	;asset;short;154
+16424;Erario c/ritenute su provvigioni a credito	;asset;short;155
+16425;Erario c/ritenute su appalti a credito	;asset;short;156
+16426;Erario c/rit. lavoro autonomo versate in ecced.	;asset;short;157
+16427;Erario c/rit. provv. versate in ecced.	;asset;short;158
+16428;Regioni c/ritenute su addizionali a credito	;asset;short;159
+16429;Comuni c/ritenute su addizionali a credito	;asset;short;160
+16431;Erario c/credito d'imposta TFR L.662/1996	;asset;short;161
+16432;Erario c/crediti d'imposta fondi comuni investim.	;asset;short;162
+16433;Erario c/credito d'imposta Dl. 66/2014	;asset;short;163
+16439;Erario c/crediti d'imposta diversi	;asset;short;164
+16490;Tributi in compensazione	;asset;short;165
+16499;Altri crediti tributari;asset;short;166
+16510;Crediti per IRES anticipata	;asset;short;167
+16520;Crediti per IRAP anticipata;asset;short;168
+17010;Soci c/prelevamenti	;asset;short;169
+17020;Titolare c/prelevamenti	;asset;short;170
+17030;Soci c/assegnazione di beni	;asset;short;171
+17040;Titolare c/assegnazione di beni	;asset;short;172
+17050;Soci c/perdite	;asset;short;173
+17051;Crediti v/soci da trasparenza fiscale	;asset;short;174
+17061;Soci c/rivalsa contributi Enasarco	;asset;short;175
+17062;Titolare c/ritenute Enasarco	;asset;short;176
+17063;Titolare c/ritenute Enpam	;asset;short;177
+17064;Titolare c/ritenute INPS ex Enpals	;asset;short;178
+17070;Soci c/ritenute subite	;asset;short;179
+17080;Crediti v/consorziati	;asset;short;180
+17099;Altri crediti v/soci;asset;short;181
+17110;Note di credito da ricevere	;asset;short;182
+17120;Crediti v/fornitori per premi da ricevere	;asset;short;183
+17130;Crediti v/fornitori per spese anticipate	;asset;short;184
+17140;Crediti v/fornitori per cauzioni	;asset;short;185
+17145;Crediti v/agenti per quote Enasarco	;asset;short;186
+17150;Crediti v/fornitori pagam. fatture lordo r/a	;asset;short;187
+17155;Fornitori c/pagamento contributi-imposte-ritenute	;asset;short;188
+17160;Acconti a fornitori di servizi	;asset;short;189
+17170;Caparre a fornitori di servizi	;asset;short;190
+17190;Crediti v/fornitori per costi anticipati	;asset;short;191
+17198;Crediti verso fornitori	;asset;short;192
+17199;Altri crediti v/fornitori;asset;short;193
+17211;Crediti v/INPS dipendenti	;asset;short;194
+17212;Crediti v/INPS collaboratori e amministratori	;asset;short;195
+17213;Crediti v/INPS titolare	;asset;short;196
+17214;Crediti v/INPS associazioni in partecipazione	;asset;short;197
+17215;Crediti v/INPS Fondo Tesoreria	;asset;short;198
+17217;Crediti v/INPS ex Enpals	;asset;short;199
+17221;Crediti v/INAIL dipendenti	;asset;short;200
+17222;Crediti v/INAIL collaboratori e amministratori	;asset;short;201
+17223;Crediti v/INAIL soci	;asset;short;202
+17224;INAIL c/acconto	;asset;short;203
+17225;Crediti v/INAIL titolare	;asset;short;204
+17230;Crediti v/Enasarco	;asset;short;205
+17240;Crediti v/Cassa Edile	;asset;short;206
+17299;Crediti v/altri istituti previdenza sicurezza soc.;asset;short;207
+17310;Dipendenti c/anticipi su retribuzioni	;asset;short;208
+17320;Dipendenti c/anticipi su TFR	;asset;short;209
+17330;Dipendenti c/anticipi per spese di viaggio	;asset;short;210
+17340;Dipendenti c/contributi anticipati su TFR	;asset;short;211
+17350;Dipendenti c/prestiti	;asset;short;212
+17360;Arrotondamenti su retribuzioni e compensi	;asset;short;213
+17399;Altri crediti v/dipendenti;asset;short;214
+17410;Obbligazionisti c/sottoscrizione	;asset;short;215
+17421;Crediti v/amministratori	;asset;short;216
+17422;Crediti v/collaboratori	;asset;short;217
+17430;Crediti per spese condominiali	;asset;short;218
+17435;Crediti per indennità cessazione rapporti agenzia	;asset;short;219
+17440;Crediti per incassi con carte di credito e POS	;asset;short;220
+17450;Crediti v/assicurazioni	;asset;short;221
+17460;Crediti v/enti pubblici	;asset;short;222
+17471;Associato c/apporti	;asset;short;223
+17472;Associato c/anticipi	;asset;short;224
+17473;Associante c/corrispettivo	;asset;short;225
+17480;Crediti v/società di factoring	;asset;short;226
+17485;Banca c/cessione fatture	;asset;short;227
+17490;Proventi bancari da accreditare	;asset;short;228
+17491;Proventi postali da accreditare	;asset;short;229
+17495;Moneta complementare c/incassi e pagamenti	;asset;short;230
+17499;Altri crediti diversi;asset;short;231
+18010;Banca c/c	;asset;short;232
+18020;Banca c/c valutario	;asset;short;233
+18031;Banca c/decimi vincolati	;asset;short;234
+18032;Depositi bancari vincolati	;asset;short;235
+18040;Depositi postali	;asset;short;236
+18050;Libretti di risparmio	;asset;short;237
+18060;Crediti per carte di credito prepagate	;asset;short;238
+18098;Incassi;asset;short;239
+18110;Assegni bancari	;asset;short;240
+18120;Assegni circolari	;asset;short;241
+18130;Assegni postali;asset;short;242
+18210;Cassa	;asset;short;243
+18220;Cassa valute	;asset;short;244
+18230;Cassa valori;asset;short;245
+19010;Disaggio su prestiti obbligazionari;asset;short;246
+19110;Ratei attivi su leasing;asset;short;247
+19120;Ratei attivi;asset;short;248
+19130;Cedole in corso di maturazione;asset;short;249
+19210;Risconti attivi su leasing;asset;short;250
+19220;Risconti attivi;asset;short;251
+20010;Capitale sociale;equity;long;252
+20020;Fondo di dotazione;equity;long;253
+20030;Capitale netto;equity;long;254
+20040;Fondo consortile;equity;long;255
+20050;Capitale netto di liquidazione;equity;long;256
+20110;Riserva da soprapprezzo;equity;long;257
+20210;Riserve di rivalutazione economica;equity;long;258
+20220;Riserva di rivalutazione monetaria ex L. 74/1952;equity;long;259
+20221;Riserva di rivalutazione monetaria ex L. 576/1975;equity;long;260
+20222;Riserva di rivalutazione monetaria ex L. 72/1983;equity;long;261
+20223;Riserva di rivalutazione monetaria ex L. 408/1990;equity;long;262
+20224;Riserva di rivalutazione monetaria ex L. 413/1991;equity;long;263
+20225;Riserva di rivalutazione monetaria ex L. 342/2000;equity;long;264
+20226;Riserva di rivalutazione monetaria ex L. 448/2001;equity;long;265
+20227;Riserva di rivalutazione monetaria ex L. 350/2003;equity;long;266
+20228;Riserva di rivalutazione monetaria ex L. 266/2005;equity;long;267
+20229;Riserva di rivalutazione monetaria ex DL 185/2008;equity;long;268
+20230;Riserva di rivalutazione monetaria ex L. 147/2013;equity;long;269
+20231;Riserva di rivalutazione monetaria ex L. 208/2015	;equity;long;270
+20232;Riserva di rivalutazione monetaria ex L. 232/2016;equity;long;271
+20310;Riserva legale;equity;long;272
+20410;Riserve statutarie	;equity;long;273
+20510;Riserva per azioni proprie in portafoglio	;equity;long;274
+20600;Riserva straordinaria	;equity;long;275
+20601;Riserve facoltative	;equity;long;276
+20602;Fondi mutualistici	;equity;long;277
+20605;Riserva per rinnovamento impianti	;equity;long;278
+20610;Riserva per ammortamenti anticipati	;equity;long;279
+20615;Riserva per acquisto azioni proprie	;equity;long;280
+20620;Riserva da deroghe ex art. 2423 c.c.	;equity;long;281
+20625;Riserva per acquisto azioni o quote controllante	;equity;long;282
+20630;Riserva da rivalutazione delle partecipazioni	;equity;long;283
+20635;Versamenti soci in c/aumento di capitale	;equity;long;284
+20636;Versamenti soci in c/futuro aumento di capitale	;equity;long;285
+20637;Versamenti soci in c/capitale	;equity;long;286
+20638;Versamenti soci in c/copertura perdite	;equity;long;287
+20640;Riserva da riduzione del capitale sociale	;equity;long;288
+20645;Riserva da avanzo di fusione	;equity;long;289
+20646;Riserva da avanzo di scissione	;equity;long;290
+20650;Riserva contributi in conto capitale	;equity;long;291
+20655;Riserva negativa da conversione in Euro	;equity;long;292
+20656;Riserva positiva da conversione in Euro	;equity;long;293
+20660;Riserva da condono fiscale ex L. 823/1973	;equity;long;294
+20661;Riserva da condono fiscale ex L. 516/1982	;equity;long;295
+20662;Riserva da condono fiscale ex L. 413/1991	;equity;long;296
+20663;Riserva da condono fiscale ex L. 289/2002	;equity;long;297
+20670;Riserva di trasformazione da società di capitali	;equity;long;298
+20671;Riserva di trasformazione da società di persone	;equity;long;299
+20675;Riserva da conguaglio utili in corso	;equity;long;300
+20680;Soci c/apporti	;equity;long;301
+20681;Titolare c/apporti	;equity;long;302
+20685;Riserva per utili su cambi;equity;long;303
+20686;Altre riserve non distribuibili;equity;long;304
+20690;Altre riserve;equity;long;305
+20695;Riserva di consolidamento;equity;long;306
+20696;Riserva da conversione per consolidamento estero;equity;long;307
+20699;Rettifiche di liquidazione;equity;long;308
+20710;Utili portati a nuovo;equity;long;309
+20720;Avanzi di gestione portati a nuovo;equity;long;310
+20790;Utile provvisorio esercizio precedente;equity;long;311
+20760;Perdite portate a nuovo;equity;long;312
+20770;Disavanzi di gestione portati a nuovo;equity;long;313
+20795;Perdita provvisoria esercizio precedente;equity;long;314
+20810;Utile di esercizio;equity;short;315
+20820;Avanzo di gestione;equity;short;316
+20830;Acconti su dividendi;equity;short;317
+20840;Utile residuo di esercizio;equity;short;318
+20860;Perdita dell'esercizio;equity;short;319
+20870;Disavanzo di gestione;equity;short;320
+20890;Perdita residua di esercizio;equity;short;321
+20910;Riserva operazioni copertura flussi finanz. attesi;equity;short;322
+20950;Riserva negativa per azioni proprie in portafoglio	;equity;short;323
+21010;F/amm. costi di costituzione	;debt;long;324
+21020;F/amm. costi per modifiche statutarie	;debt;long;325
+21030;F/amm. costi di ampliamento	;debt;long;326
+21040;F/amm. costi di start up;debt;long;327
+21110;F/amm. costi di ricerca e sviluppo	;debt;long;328
+21120;F/amm. costi di pubblicità	;debt;long;329
+21130;F/amm. costi di sviluppo	;debt;long;330
+21210;F/amm. diritti di brevetto	;debt;long;331
+21220;F/amm. diritti d'autore	;debt;long;332
+21231;F/amm. software di proprietà	;debt;long;333
+21232;F/amm. software in licenza d'uso a tempo indeterm.	;debt;long;334
+21233;F/amm. software di produzione interna tutelato	;debt;long;335
+21241;F/amm. contratti di know-how	;debt;long;336
+21242;F/amm. know-how di produzione interna tutelato;debt;long;337
+21310;F/amm. concessioni	;debt;long;338
+21321;F/amm. licenze amministrative	;debt;long;339
+21322;F/amm. software in licenza d'uso a tempo determ.	;debt;long;340
+21323;F/amm. licenze d'uso	;debt;long;341
+21330;F/amm. marchi	;debt;long;342
+21341;F/amm. diritti di franchising	;debt;long;343
+21342;F/amm. diritti di esclusiva	;debt;long;344
+21350;F/amm. costi di acquisizione dei vincoli sportivi;debt;long;345
+21410;F/amm. avviamento;debt;long;346
+21610;F/amm. migliorie e spese increm. su beni di terzi	;debt;long;347
+21620;F/amm. oneri accessori su finanziamenti e leasing	;debt;long;348
+21630;F/amm. costi per certificazione di qualità	;debt;long;349
+21640;F/amm. costi per realizzazione del sito Internet	;debt;long;350
+21650;F/amm. software di produzione interna non tutelato	;debt;long;351
+21660;F/amm. know-how di produzione interna non tutelato	;debt;long;352
+21670;F/amm. oneri pluriennali;debt;long;353
+22010;F/amm. terreni	;debt;long;354
+22021;F/amm. fabbricati industriali	;debt;long;355
+22022;F/amm. fabbricati civili	;debt;long;356
+22023;F/amm. fabbricati abitativi	;debt;long;357
+22030;F/amm. costruzioni leggere;debt;long;358
+22111;F/amm. impianti generici	;debt;long;359
+22112;F/amm. impianti specifici	;debt;long;360
+22121;F/amm. macchinari automatici	;debt;long;361
+22122;F/amm. macchinari non automatici;debt;long;362
+22210;F/amm. attrezzatura industriale	;debt;long;363
+22220;F/amm. attrezzatura commerciale	;debt;long;364
+22230;F/amm. attrezzatura varia e minuta;debt;long;365
+22310;F/amm. mobili e arredi	;debt;long;366
+22320;F/amm. macchine ordinarie d'ufficio	;debt;long;367
+22330;F/amm. macchine elettroniche d'ufficio	;debt;long;368
+22340;F/amm. sistemi telefonici elettronici	;debt;long;369
+22350;F/amm. autovetture, motoveicoli e simili	;debt;long;370
+22360;F/amm. autoveicoli da trasporto	;debt;long;371
+22510;F/sval. costi di costituzione	;debt;long;372
+22520;F/sval. costi per modifiche statutarie	;debt;long;373
+22530;F/sval. costi di ampliamento	;debt;long;374
+22540;F/sval. costi di start up	;debt;long;375
+22610;F/sval. costi di ricerca e sviluppo	;debt;long;376
+22620;F/sval. costi di pubblicità	;debt;long;377
+22630;F/sval. costi di sviluppo;debt;long;378
+22710;F/sval. diritti di brevetto	;debt;long;379
+22720;F/sval. diritti d'autore	;debt;long;380
+22731;F/sval. software di proprietà	;debt;long;381
+22732;F/sval. software in licenza d'uso a tempo indet.	;debt;long;382
+22733;F/sval. software di produzione interna tutelato	;debt;long;383
+22741;F/sval. contratti di know-how	;debt;long;384
+22742;F/sval. know-how di produzione interna tutelato	;debt;long;385
+22810;F/sval. concessioni	;debt;long;386
+22821;F/sval. licenze amministrative	;debt;long;387
+22822;F/sval. software in licenza d'uso a tempo determ.	;debt;long;388
+22823;F/sval. licenze d'uso	;debt;long;389
+22830;F/sval. marchi	;debt;long;390
+22841;F/sval. diritti di franchising	;debt;long;391
+22842;F/sval. diritti di esclusiva	;debt;long;392
+22850;F/sval. costi di acquisizione dei vincoli sportivi;debt;long;393
+22910;F/sval. avviamento;debt;long;394
+23010;F/sval. immobilizzazioni immateriali in corso	;debt;long;395
+23020;F/sval. acconti a fornitori di immobilizz. imm.;debt;long;396
+23110;F/sval. migliorie e spese increm. su beni di terzi	;debt;long;397
+23120;F/sval. oneri accessori su finanziamenti e leasing	;debt;long;398
+23130;F/sval. costi per certificazione di qualità	;debt;long;399
+23140;F/sval. costi per realizzazione del sito Internet	;debt;long;400
+23150;F/sval. software di produz. interna non tutelato	;debt;long;401
+23160;F/sval. know-how di produz. interna non tutelato	;debt;long;402
+23170;F/sval. oneri pluriennali;debt;long;403
+23210;F/sval. terreni	;debt;long;404
+23221;F/sval. fabbricati industriali	;debt;long;405
+23222;F/sval. fabbricati civili	;debt;long;406
+23223;F/sval. fabbricati abitativi	;debt;long;407
+23230;F/sval. costruzioni leggere;debt;long;408
+23311;F/sval. impianti generici	;debt;long;409
+23312;F/sval. impianti specifici	;debt;long;410
+23321;F/sval. macchinari automatici	;debt;long;411
+23322;F/sval. macchinari non automatici;debt;long;412
+23410;F/sval. attrezzatura industriale	;debt;long;413
+23420;F/sval. attrezzatura commerciale	;debt;long;414
+23430;F/sval. attrezzatura varia e minuta;debt;long;415
+23510;F/sval. mobili e arredi	;debt;long;416
+23520;F/sval. macchine ordinarie d'ufficio	;debt;long;417
+23530;F/sval. macchine elettroniche d'ufficio	;debt;long;418
+23540;F/sval. sistemi telefonici elettronici	;debt;long;419
+23550;F/sval. autovetture, motoveicoli e simili	;debt;long;420
+23560;F/sval. autoveicoli da trasporto;debt;long;421
+23610;F/sval. immobilizzazioni materiali in corso	;debt;long;422
+23620;F/sval. acconti a fornitori di immobilizz. mat.;debt;long;423
+23710;F/sval. partecipazioni immobilizzate	;debt;long;424
+23760;F/sval. partecipazioni non immobilizzate;debt;long;425
+23810;F/sval. crediti finanziari immobilizzati	;debt;long;426
+23860;F/sval. crediti finanziari non immobilizzati;debt;long;427
+23910;F/sval. titoli di Stato immobilizzati	;debt;long;428
+23920;F/sval. obbligazioni immobilizzate	;debt;long;429
+23930;F/sval. altri titoli immobilizzati	;debt;long;430
+23960;F/sval. titoli di Stato non immobilizzati	;debt;long;431
+23970;F/sval. obbligazioni non immobilizzate	;debt;long;432
+23980;F/sval. altri titoli non immobilizzati;debt;long;433
+24010;F/sval. azioni proprie immobilizzate	;debt;long;434
+24060;F/sval. azioni proprie non immobilizzate;debt;long;435
+24110;F/sval. depositi cauzionali immobilizzati	;debt;long;436
+24120;F/sval. associante c/apporto	;debt;long;437
+24130;F/sval. crediti v/assicurazioni per TFR assicurato	;debt;long;438
+24160;F/sval. depositi cauzionali non immobilizzati;debt;long;439
+24211;F/sval. rimanenze di materie prime	;debt;long;440
+24212;F/sval. rimanenze di materie sussidiarie	;debt;long;441
+24213;F/sval. rimanenze di materie di consumo	;debt;long;442
+24221;F/sval. rimanenze di prodotti in corso di lavoraz.	;debt;long;443
+24222;F/sval. rimanenze di semilavorati	;debt;long;444
+24231;F/sval. rimanenze di lavori in corso su ordinaz.	;debt;long;445
+24232;F/sval. rimanenze di immobili in corso di costruz.	;debt;long;446
+24241;F/sval. rimanenze di prodotti finiti	;debt;long;447
+24242;F/sval. rimanenze di immobili destinati alla riv.	;debt;long;448
+24243;F/sval. rimanenze di merci	;debt;long;449
+24244;F/sval. immobilizzazioni materiali dest. riv.	;debt;long;450
+24245;F/sval. rimanenze di prodotti soggetti ad aggio	;debt;long;451
+24246;F/sval. rimanenze di beni usati;debt;long;452
+24310;F/sval. crediti v/clienti	;debt;long;453
+24320;F/sval. crediti v/clienti diversi	;debt;long;454
+24330;F/sval. crediti tributari	;debt;long;455
+24340;F/sval. crediti diversi	;debt;long;456
+24350;F/sval. depositi bancari e postali;debt;long;457
+24410;F/previdenza complementare	;debt;long;458
+24420;F/TFM amministratori	;debt;long;459
+24430;F/IFR collaboratori	;debt;long;460
+24440;F/indennità per cessazione rapporti agenzia	;debt;long;461
+24450;F/indennità suppletiva di clientela	;debt;long;462
+24499;Altri f/trattamento di quiescenza;debt;long;463
+24510;F/IRES differita	;debt;short;464
+24520;F/IRAP differita	;debt;short;465
+24530;F/imposte da contenziosi in corso	;debt;short;466
+24540;F/imposte da consolidato fiscale;debt;short;467
+24610;F/garanzia prodotti	;debt;short;468
+24620;F/lavori ciclici manutenzione e revisione	;debt;short;469
+24630;F/concorsi a premio	;debt;short;470
+24640;F/operazioni a premio	;debt;short;471
+24650;F/manutenzione e ripristino beni azienda in aff.	;debt;short;472
+24660;F/ripristino sost. beni gratuitamente devolvibili	;debt;short;473
+24670;F/copertura perdite di società partecipate	;debt;short;474
+24680;Fondo costi ed oneri di liquidazione	;debt;short;475
+24690;F/recupero ambientale	;debt;short;476
+24691;F/prepensionamento e ristrutturazioni aziendali	;debt;short;477
+24692;F/contratti onerosi	;debt;short;478
+24699;Altri f/oneri;debt;short;479
+24710;F/rischi per controversie legali in corso	;debt;short;480
+24720;F/rischi su cambi	;debt;short;481
+24799;Altri f/rischi;debt;short;482
+24810;F/TFR dipendenti;debt;short;483
+24910;Derivati passivi di copertura	;debt;long;484
+24920;Derivati passivi non di copertura	;debt;long;485
+25010;Prestiti obbligazionari	;debt;long;486
+25020;Prestiti obbligazionari convertibili	;debt;long;487
+25111;Finanziamenti fruttiferi soci	;debt;long;488
+25112;Debiti per interessi su finanz. fruttiferi soci	;debt;long;489
+25120;Finanziamenti infruttiferi soci;debt;long;490
+25210;Banca c/anticipi su fatture	;debt;short;491
+25220;Banca c/c sbf	;debt;short;492
+25230;Banca c/anticipi su import/export	;debt;long;493
+25240;Banca c/finanziamenti	;debt;long;494
+25250;Banca c/finanziamenti valutari	;debt;long;495
+25260;Mutui passivi	;debt;long;496
+25290;Oneri bancari da addebitare	;debt;short;497
+25291;Oneri postali da addebitare	;debt;short;498
+25298;Pagamenti	;debt;short;499
+25299;Altri debiti v/banche;debt;short;500
+25310;Debiti v/società di factoring	;debt;long;501
+25320;Debiti v/società di leasing	;debt;long;502
+25331;Finanziamenti fruttiferi di terzi	;debt;long;503
+25332;Debiti per interessi su finanz. fruttiferi terzi	;debt;long;504
+25340;Finanziamenti infruttiferi di terzi	;debt;long;505
+25350;Associato c/apporto	;debt;long;506
+25399;Debiti diversi v/altri finanziatori;debt;long;507
+25411;Acconti ricevuti da clienti su forniture di beni	;debt;long;508
+25412;Acconti ricevuti da clienti su forniture di serviz	;debt;long;509
+25415;Acconti ricevuti da clienti beneficiari 36/55%	;debt;long;510
+25421;Caparre confirmatorie	;debt;long;511
+25422;Caparre penitenziali	;debt;long;512
+25499;Altri debiti per acconti;debt;long;513
+25500;Debiti v/fornitori	;debt;short;514
+25994;Rettifica debiti v/fornitori da attualizzazione	;debt;short;515
+25995;Debiti verso fornitori	;debt;short;516
+25996;Fornitori c/documento riepilogativo	;debt;short;517
+25997;Scheda carburante	;debt;short;518
+25998;Bolla doganale	;debt;short;519
+25999;Annotazione NO IVA;debt;short;520
+26010;Fatture da ricevere	;debt;short;521
+26020;Debiti v/fornitori per spese anticipate	;debt;short;522
+26099;Altri debiti v/fornitori;debt;short;523
+26510;Cambiali passive commerciali	;debt;short;524
+26520;Cambiali passive finanziarie	;debt;short;525
+26599;Altri debiti rappresentati da titoli di credito;debt;short;526
+27010;Erario c/ritenute su lavoro dipendente	;debt;short;527
+27020;Erario c/ritenute su compensi collab. e amministr.	;debt;short;528
+27030;Erario c/ritenute su lavoro autonomo	;debt;short;529
+27035;Erario c/ritenute su appalti	;debt;short;530
+27041;Erario c/ritenute su provvigioni	;debt;short;531
+27042;Erario c/ritenute su indenn. cessazione agenzia	;debt;short;532
+27043;Erario c/ritenute su compensi perdita avviamento	;debt;short;533
+27044;Erario c/ritenute su locazioni brevi	;debt;short;534
+27045;Erario c/ritenute pignoramento presso terzi	;debt;short;535
+27051;Erario c/ritenute su dividendi,	;debt;short;536
+27052;Erario c/ritenute su obbligazioni	;debt;short;537
+27061;Erario c/ritenute su TFR erogato	;debt;short;538
+27062;Erario c/ritenute su indenn. cessaz. collab.	;debt;short;539
+27071;Regioni c/ritenute su addizionali	;debt;short;540
+27072;Comuni c/ritenute su addizionali	;debt;short;541
+27080;Erario c/imposta sost. su incrementi produttività	;debt;short;542
+27091;Erario c/ritenute subite su provvigioni anno succ.	;debt;short;543
+27092;Erario c/ritenute subite attività fin. anno succ.	;debt;short;544
+27093;Erario c/ritenute subite diverse anno succ.	;debt;short;545
+27099;Erario c/ritenute diverse;debt;short;546
+27110;Erario c/IRES a debito	;debt;short;547
+27115;Erario c/maggiorazione IRES a debito	;debt;short;548
+27120;IRES c/consolidato fiscale	;debt;short;549
+27130;Erario c/acconto IRES versamenti anno successivo	;debt;short;550
+27135;Erario c/acconto magg. IRES versamento anno succ.	;debt;short;551
+27140;IRES c/compensazioni anno successivo	;debt;short;552
+27145;Maggiorazione IRES c/compensazioni anno successivo;debt;short;553
+27210;Regioni c/IRAP a debito	;debt;short;554
+27230;Regioni c/acconto IRAP versamenti anno successivo	;debt;short;555
+27240;IRAP c/compensazioni anno successivo;debt;short;556
+27310;IVA c/vendite	;debt;short;557
+27311;IVA c/vendite autotrasportatori	;debt;short;558
+27315;IVA c/vendite agricoltura	;debt;short;559
+27316;IVA c/vendite L.398/91	;debt;short;560
+27317;Iva c/vendite split payment	;debt;short;561
+27320;IVA c/corrispettivi	;debt;short;562
+27325;Iva c/corrispettivi agricoltura	;debt;short;563
+27330;IVA a esigibilità differita	;debt;short;564
+27340;Erario c/IVA da versare;debt;short;565
+27410;Erario c/imposta sostitutiva rivalut. TFR a debito	;debt;short;566
+27420;Erario c/imposte sostitutive	;debt;short;567
+27430;Erario c/condoni	;debt;short;568
+27499;Altri debiti tributari;debt;short;569
+28011;Debiti v/INPS dipendenti	;debt;short;570
+28012;Debiti v/INPS su ferie maturate e mensilità agg.	;debt;short;571
+28013;Debiti v/INPS collaboratori e amministratori	;debt;short;572
+28014;Debiti v/INPS associati in partecipazione	;debt;short;573
+28015;Debiti v/INPS titolare	;debt;short;574
+28016;Debiti v/INPS Fondo Tesoreria	;debt;short;575
+28017;Debiti v/INPS ex Enpals	;debt;short;576
+28021;Debiti v/INAIL dipendenti	;debt;short;577
+28022;Debiti v/INAIL su ferie maturate e mensilità agg.	;debt;short;578
+28023;Debiti v/INAIL collaboratori e amministratori	;debt;short;579
+28024;Debiti v/INAIL soci	;debt;short;580
+28025;Debiti v/INAIL titolare	;debt;short;581
+28030;Debiti v/Enasarco	;debt;short;582
+28040;Debiti v/Cassa Edile	;debt;short;583
+28050;Debiti v/Cassa di previdenza	;debt;short;584
+28099;Debiti v/altri istituti previdenza/sicurezza soc.;debt;short;585
+28110;Dipendenti c/retribuzioni	;debt;short;586
+28120;Dipendenti c/ferie maturate e mensilità aggiuntive	;debt;short;587
+28130;Debiti per TFR dipendenti cessati	;debt;short;588
+28140;Dipendenti c/dividendi	;debt;short;589
+28150;Dipendenti c/rimborso spese	;debt;short;590
+28199;Altri debiti v/dipendenti;debt;short;591
+28210;Amministratori c/compensi	;debt;short;592
+28220;Debiti per TFM amministratori cessati	;debt;short;593
+28230;Amministratori c/dividendi	;debt;short;594
+28250;Amministratori c/rimborso spese	;debt;short;595
+28299;Altri debiti v/amministratori;debt;short;596
+28310;Collaboratori c/compensi	;debt;short;597
+28320;Debiti per IFR collaboratori cessati	;debt;short;598
+28350;Collaboratori c/rimborso spese	;debt;short;599
+28399;Altri debiti v/collaboratori;debt;short;600
+28410;Note di accredito da emettere	;debt;short;601
+28420;Debiti v/clienti per premi da emettere	;debt;short;602
+28430;Debiti v/clienti per spese anticipate	;debt;short;603
+28440;Debiti v/clienti per cauzioni	;debt;short;604
+28490;Debiti v/clienti per ricavi anticipati	;debt;short;605
+28494;Debiti verso clienti	;debt;short;606
+28499;Altri debiti v/clienti;debt;short;607
+28511;Azionisti c/dividendi	;debt;short;608
+28512;Azionisti c/acconti su dividendi	;debt;short;609
+28513;Promotori e fondatori c/dividendi	;debt;short;610
+28520;Soci c/utili	;debt;short;611
+28530;Soci c/liquidazioni	;debt;short;612
+28541;Debiti v/consorziati	;debt;short;613
+28542;Consorziati c/liquidazione;debt;short;614
+28551;Debiti v/soci da trasparenza fiscale;debt;short;615
+28599;Altri debiti v/soci;debt;short;616
+28610;Debiti v/obbligazionisti;debt;short;617
+28621;Trattenute sindacali;debt;short;618
+28622;Debiti v/fondi previdenza complementare;debt;short;619
+28623;Debiti v/Enti Bilaterali;debt;short;620
+28630;Debiti finanziari;debt;short;621
+28635;Debiti v/enti pubblici;debt;short;622
+28640;Debiti v/assicurazioni;debt;short;623
+28650;Debiti per spese condominiali;debt;short;624
+28660;Debiti per pagamenti con carte di credito;debt;short;625
+28670;Debiti per cauzioni;debt;short;626
+28681;Associato c/corrispettivo;debt;short;627
+28682;Debiti v/associante;debt;short;628
+28690;Debiti v/Agente della Riscossione;debt;short;629
+28694;Fondo spese;debt;short;630
+28695;Intermediario c/versamenti F24;debt;short;631
+28696;Coobbligati c/versamenti F24;debt;short;632
+28697;Clienti c/pagamento contributi-imposte-ritenute;debt;short;633
+28698;Incassi per conto terzi;debt;short;634
+28699;Altri debiti diversi;debt;short;635
+29010;Aggio su prestiti obbligazionari;debt;short;636
+29110;Ratei passivi su leasing;debt;short;637
+29120;Ratei passivi;debt;short;638
+29210;Risconti passivi su leasing;debt;short;639
+29220;Risconti passivi su contributi;debt;short;640
+29230;Risconti passivi;debt;short;641
+30010;Materie prime c/acquisti;variable;cost		;642
+30020;Materie sussidiarie c/acquisti;variable;cost		;643
+30030;Materie di consumo c/acquisti;variable;cost		;644
+30041;Imballaggi c/acquisti;variable;cost		;645
+30042;Materiali di manutenzione c/acquisti;variable;cost		;646
+30043;Materiale di pulizia c/acquisti;variable;cost	;647
+30044;Cancelleria c/acquisti;variable;cost	;648
+30045;Carburanti e lubrificanti c/acquisti;variable;cost	;649
+30046;Materiale promozionale c/acquisti;variable;cost		;650
+30047;Indumenti di lavoro c/acquisti;variable;cost		;651
+30050;Semilavorati c/acquisti;variable;cost		;652
+30055;Prodotti finiti c/acquisti;variable;cost		;653
+30060;Merci c/acquisti;variable;cost		;654
+30065;Prodotti soggetti ad aggio c/acquisti;variable;cost		;655
+30070;Beni usati c/acquisti;variable;cost		;656
+30075;Acquisto di beni inferiori a 516,46 euro;variable;cost		;657
+30080;Spese di acquisto oggetti d'arte;variable;cost		;658
+30085;Acquisto software destinato alla rivendita;variable;cost		;659
+30090;Costi per beni conferiti da soci;variable;cost		;660
+30099;Altri acquisti;variable;cost	;661
+30110;Trasporti su acquisti;variable;cost	;662
+30120;Dazi su acquisti;variable;cost	;663
+30130;Diritti doganali su acquisti;variable;cost	;664
+30170;Beni usati c/spese accessorie;variable;cost	;665
+30199;Altri oneri accessori su acquisti;variable;cost;666
+30210;Sconti e abbuoni su acquisti di beni;fixed;cost;667
+30215;Sconti e abbuoni su acquisti di beni usati;fixed;cost;668
+30220;Premi su acquisti di beni;fixed;cost;669
+30230;Resi su acquisti di beni;fixed;cost;670
+30235;Resi su acquisti di beni usati;fixed;cost;671
+31011;Spese di trasporto e spedizione	;variable;cost;672
+31012;Trasporti su vendite	;variable;cost;673
+31020;Lavorazioni di terzi	;variable;cost;674
+31025;Prestazioni di terzi	;variable;cost;675
+31031;Manutenzioni e riparazioni su automezzi propri	;fixed;cost;676
+31032;Manutenzioni e riparazioni sistemi telef. propri	;fixed;cost;677
+31033;Manutenzioni e riparazioni su altri beni propri	;fixed;cost;678
+31034;Costi per pneumatici	;fixed;cost;679
+31035;Manutenzioni e riparazioni su automezzi di terzi	;fixed;cost;680
+31036;Manutenzioni e riparazioni sistemi telef. di terzi	;fixed;cost;681
+31037;Manutenzioni e riparazioni su altri beni di terzi	;fixed;cost;682
+31038;Canoni di manutenzione su automezzi propri	;fixed;cost;683
+31039;Canoni di manutenzione su sistemi telef. propri	;fixed;cost;684
+31040;Canoni di manutenzione su altri beni propri	;fixed;cost;685
+31041;Canoni di manutenzione su automezzi di terzi	;fixed;cost;686
+31042;Canoni di manutenzione su sistemi telef. di terzi	;fixed;cost;687
+31043;Canoni di manutenzione su altri beni di terzi	;fixed;cost;688
+31045;Canoni di assistenza	;fixed;cost;689
+31050;Spese di aggiornamento e manutenzione software	;fixed;cost;690
+31055;Spese di vigilanza	;fixed;cost;691
+31060;Spese di pulizia	;fixed;cost;692
+31070;Spese di smaltimento rifiuti	;fixed;cost;693
+31080;Beni usati c/spese di riparazione	;fixed;cost;694
+31090;Spese di ricerca	;fixed;cost;695
+31099;Altri costi per servizi industriali;fixed;cost;696
+31110;Spese di pubblicità e promozione	;fixed;cost;697
+31115;Sponsorizzazioni	;fixed;cost;698
+31120;Spese di rappresentanza	;fixed;cost;699
+31125;Spese per ospitalità clienti	;fixed;cost;700
+31130;Spese di viaggio e trasferte	;fixed;cost;701
+31135;Spese di vitto e alloggio	;fixed;cost;702
+31140;Spese di vitto e alloggio trasferte dipendenti	;fixed;cost;703
+31145;Indennità chilometriche dipendenti	;fixed;cost;704
+31150;Spese di viaggio trasferte dipendenti	;fixed;cost;705
+31155;Spese pedaggi e parcheggi dipendenti	;fixed;cost;706
+31160;Spese di vitto e alloggio trasferte titolare	;fixed;cost;707
+31165;Indennità chilometriche titolare	;fixed;cost;708
+31170;Spese di viaggio trasferte titolare	;fixed;cost;709
+31175;Spese pedaggi e parcheggi titolare	;fixed;cost;710
+31180;Spese per pedaggi, parcheggi e lavaggi	;fixed;cost;711
+31190;Spese per studi e ricerche di mercato	;fixed;cost;712
+31199;Altri costi per servizi commerciali	;fixed;cost;713
+31211;Energia elettrica;fixed;cost	;714
+31212;Forza motrice;fixed;cost	;715
+31220;Gas e riscaldamento;fixed;cost	;716
+31230;Acqua;fixed;cost	;717
+31241;Spese telefonia fissa;fixed;cost	;718
+31242;Spese telefonia mobile;fixed;cost	;719
+31243;Spese Internet;fixed;cost	;720
+31299;Altri costi per utenze;fixed;cost;721
+31310;Compensi amministratori;fixed;cost	;722
+31320;Spese di viaggio trasferte amministratori;fixed;cost	;723
+31330;Spese di vitto e alloggio trasferte amministratori;fixed;cost	;724
+31340;Indennità chilometriche amministratori;fixed;cost	;725
+31350;Spese pedaggi e parcheggi amministratori;fixed;cost	;726
+31360;Acc.to al f/TFM amministratori;fixed;cost	;727
+31365;Quota annua TFM amministratori;fixed;cost	;728
+31370;Contributi INPS amministratori;fixed;cost	;729
+31375;Contributi INPS titolare;fixed;cost	;730
+31380;Contributi INAIL amministratori;fixed;cost	;731
+31385;Contributi INAIL titolare;fixed;cost	;732
+31390;Contributi INAIL soci;fixed;cost;733
+31410;Compensi collaboratori;fixed;cost	;734
+31420;Spese di viaggio trasferte collaboratori;fixed;cost	;735
+31430;Spese di vitto e alloggio trasferte collaboratori;fixed;cost	;736
+31440;Indennità chilometriche collaboratori;fixed;cost	;737
+31450;Spese pedaggi e parcheggi collaboratori;fixed;cost	;738
+31460;Acc.to al f/IFR collaboratori;fixed;cost	;739
+31465;Quota annua IFR collaboratori;fixed;cost	;740
+31470;Contributi INPS collaboratori;fixed;cost	;741
+31480;Contributi INAIL collaboratori;fixed;cost;742
+31510;Compensi ad associati in partecipazione	;fixed;cost;743
+31520;Spese di viaggio trasferte associati in part.	;fixed;cost;744
+31530;Spese di vitto e alloggio trasf. associati part.	;fixed;cost;745
+31540;Indennità chilometriche associati in part.	;fixed;cost;746
+31550;Spese pedaggi e parcheggi associati in part.	;fixed;cost;747
+31560;Contributi INPS associati in partecipazione;fixed;cost;748
+31610;Provvigioni agenti e rappresentanti	;fixed;cost;749
+31620;Rimborso spese viaggio agenti e rappr.	;fixed;cost;750
+31630;Rimborso spese vitto e alloggio agenti e rappr.	;fixed;cost;751
+31640;Contributi Enasarco	;fixed;cost;752
+31650;Contributi FIRR	;fixed;cost;753
+31660;Acc.to al f/indennità cessazione rapporto agenzia	;fixed;cost;754
+31665;Oneri per indennità cessazione rapporto agenzia	;fixed;cost;755
+31670;Acc.to al f/indennità suppletiva di clientela	;fixed;cost;756
+31675;Indennità suppletiva di clientela	;fixed;cost;757
+31891;Provvigioni viaggi (UE)	;fixed;cost;758
+31892;Provvigioni viaggi (Misti)	;fixed;cost;759
+31893;Provvigioni viaggi (ExtraUE);fixed;cost;760
+31710;Compensi a sindaci e revisori	;fixed;cost;761
+31715;Spese per elaborazione dati	;fixed;cost;762
+31720;Consulenze amministrative e fiscali	;fixed;cost;763
+31725;Spese tenuta paghe e consulenza del lavoro	;fixed;cost;764
+31730;Spese e consulenze legali e notarili	;fixed;cost;765
+31735;Spese per recupero crediti e contenzioso	;fixed;cost;766
+31740;Consulenze commerciali	;fixed;cost;767
+31750;Consulenze tecniche	;fixed;cost;768
+31760;Visite mediche	;fixed;cost;769
+31770;Rimborso spese viaggio professionisti	;fixed;cost;770
+31775;Rimborso spese vitto e alloggio professionisti	;fixed;cost;771
+31780;Compensi occasionali	;fixed;cost;772
+31790;Rimborso spese viaggio occasionali	;fixed;cost;773
+31795;Rimborso spese vitto e alloggio occasionali	;fixed;cost;774
+31798;Compensi per prestazioni afferenti attività prof.	;fixed;cost;775
+31799;Altri compensi professionali;fixed;cost;776
+31810;Spese postali e di affrancatura	;fixed;cost;777
+31815;Addebito spese di incasso	;fixed;cost;778
+31816;Spese amministrative	;fixed;cost;779
+31820;Spese per buoni pasto e mensa esterna	;fixed;cost;780
+31825;Servizi di agenzia lavoro interinale	;fixed;cost;781
+31830;Spese condominiali su immobili propri	;fixed;cost;782
+31835;Assicurazioni autovetture	;fixed;cost;783
+31836;Assicurazioni autoveicoli da trasporto	;fixed;cost;784
+31837;Assicurazioni varie	;fixed;cost;785
+31840;Assicurazioni RC professionali	;fixed;cost;786
+31845;Spese per ricerca e selezione personale	;fixed;cost;787
+31850;Spese per addestramento e formazione personale	;fixed;cost;788
+31855;Spese partecipazione convegni, congressi, corsi	;fixed;cost;789
+31860;Commissioni e spese bancarie	;fixed;cost;790
+31861;Commissioni e spese sbf	;fixed;cost;791
+31862;Commissioni e spese su fideiussioni	;fixed;cost;792
+31863;Commissioni e spese su carte di credito	;fixed;cost;793
+31865;Commissioni e spese su depositi postali	;fixed;cost;794
+31866;Spese per servizi bancari	;fixed;cost;795
+31867;Spese per servizi postali	;fixed;cost;796
+31868;Spese di protesto	;fixed;cost;797
+31869;Commissioni e spese di factoring	;fixed;cost;798
+31870;Spese per controlli di qualità	;fixed;cost;799
+31875;Costi per attività di service	;fixed;cost;800
+31880;Costi organizz. pacchetti/servizi turistici (UE)	;fixed;cost;801
+31881;Costi organiz. pacchetti/serv. turistici (ExtraUE)	;fixed;cost;802
+31882;Costi organiz. pacchetti/serv. turistici (misti)	;fixed;cost;803
+31883;Costi acquisto singoli servizi turistici (UE)	;fixed;cost;804
+31884;Costi acquisto singoli servizi turistici (ExtraUE)	;fixed;cost;805
+31885;Costi acquisto singoli servizi turistici (misti)	;fixed;cost;806
+31886;Costi acquisto pacchetti c/tour operator (UE)	;fixed;cost;807
+31887;Costi acquisto pacchetti c/tour operator (ExtraUE)	;fixed;cost;808
+31888;Costi acquisto pacchetti c/tour operator (misti)	;fixed;cost;809
+31890;Costi per servizi ricevuti da soci	;fixed;cost;810
+31898;Servizi accessori leasing/noleggio autovetture	;fixed;cost;811
+31899;Costi diversi per servizi	;fixed;cost;812
+31910;Sconti, abbuoni, resi, premi su costi per servizi	;fixed;cost;813
+31960;Rettifiche su riparazioni di beni usati	;fixed;cost;814
+31981;Rett. costi org. pacch/serv turistici (UE)	;fixed;cost;815
+31982;Rett. costi org. pacch/serv turistici (ExtraUE)	;fixed;cost;816
+31983;Rett. costi org. pacch/serv turistici (misti)	;fixed;cost;817
+31984;Rettifiche costi acq. servizi turistici (UE)	;fixed;cost;818
+31985;Rettifiche costi acq. servizi turistici (ExtraUE)	;fixed;cost;819
+31986;Rettifiche costi acq. servizi turistici (misti)	;fixed;cost;820
+31987;Rettif. acq. pacch. turistici tour operator (UE)	;fixed;cost;821
+31988;Rettif.acq.pacch.turistici tour operator (ExtraUE)	;fixed;cost;822
+31989;Rettif. acq.pacch.turistici tour operator (misti)	;fixed;cost;823
+32010;Fitti passivi	;fixed;cost;824
+32020;Canoni passivi per affitto di azienda;fixed;cost;825
+32110;Spese condominiali su immobili di terzi	;fixed;cost;826
+32120;Imposta di registro su immobili di terzi;fixed;cost;827
+32210;Canoni leasing beni immobili	;fixed;cost;828
+32211;Canoni leasing autovetture	;fixed;cost;829
+32212;Canoni leasing sistemi telefonici	;fixed;cost;830
+32220;Canoni leasing altri beni mobili	;fixed;cost;831
+32261;Indiciz. negative canoni leasing beni immobili	;fixed;cost;832
+32262;Indiciz. positive canoni leasing beni immobili	;fixed;cost;833
+32263;Indiciz. negative canoni leasing autovetture	;fixed;cost;834
+32264;Indiciz. positive canoni leasing autovetture	;fixed;cost;835
+32265;Indiciz.negative canoni leasing sistemi telefonici	;fixed;cost;836
+32266;Indiciz.positive canoni leasing sistemi telefonici	;fixed;cost;837
+32267;Indiciz. negative canoni leasing altri beni mobili	;fixed;cost;838
+32268;Indiciz. positive canoni leasing altri beni mobili;fixed;cost;839
+32310;Canoni leasing operativo	;fixed;cost;840
+32320;Costi per noleggio autovetture	;fixed;cost;841
+32330;Altri costi per noleggio	;fixed;cost;842
+32340;Costi per licenze d'uso software	;fixed;cost;843
+32350;Costi per royalties, diritti d'autore, brevetti	;fixed;cost;844
+32360;Costi di usufrutto, enfiteusi, superificie	;fixed;cost;845
+32397;Spese per attività in strutture polifunzionali	;fixed;cost;846
+32398;Spese per utilizzo strutture di terzi	;fixed;cost;847
+32399;Costi diversi per godimento beni di terzi	;fixed;cost;848
+32410;Rettifiche su costi per godimento beni di terzi;fixed;cost;849
+33010;Salari	;fixed;cost;850
+33020;Stipendi	;fixed;cost;851
+33030;Indennità forfettarie di trasferta	;fixed;cost;852
+33040;Indennità di mancato preavviso	;fixed;cost;853
+33050;Fringe benefits a dipendenti	;fixed;cost;854
+33060;Premi a dipendenti	;fixed;cost;855
+33070;Costo lavoro interinale	;fixed;cost;856
+33090;Salari e stipendi dei soci;fixed;cost;857
+33110;Contributi INPS dipendenti	;fixed;cost;858
+33120;Contributi INPS dipendenti fiscalizzati	;fixed;cost;859
+33130;Contributi aggiuntivi f/previdenza complementare	;fixed;cost;860
+33140;Contributi INAIL dipendenti	;fixed;cost;861
+33150;Contributi Cassa Edile	;fixed;cost;862
+33160;Contributi Enti Bilaterali	;fixed;cost;863
+33190;Oneri sociali dei soci	;fixed;cost;864
+33199;Altri oneri sociali	;fixed;cost;865
+33210;Acc.to al f/TFR dipendenti	;fixed;cost;866
+33220;Quota annua TFR dipendenti	;fixed;cost;867
+33290;Trattamento di fine rapporto dei soci	;fixed;cost;868
+33310;Acc.to al f/previdenza complementare	;fixed;cost;869
+33320;Quota tfr per f/previdenza complementare	;fixed;cost;870
+33390;Trattamento di quiescenza dei soci	;fixed;cost;871
+33399;Acc.to ad altri f/trattamento di quiescenza	;fixed;cost;872
+33410;Oneri di utilità sociale a favore dei dipendenti	;fixed;cost;873
+33420;,Borse di studio a dipendenti e familiari	;fixed;cost;874
+33430;Indennità prepensionamento personale	;fixed;cost;875
+33440;Transazioni con dipendenti	;fixed;cost;876
+33490;Altri costi per il personale dei soci	;fixed;cost;877
+33499;Costi diversi del personale	;fixed;cost;878
+34001;Amm.to costi di costituzione	;fixed;cost;879
+34002;Amm.to costi per modifiche statutarie	;fixed;cost;880
+34003;Amm.to costi di ampliamento	;fixed;cost;881
+34004;Amm.to costi di start up	;fixed;cost;882
+34011;Amm.to costi di ricerca e sviluppo	;fixed;cost;883
+34012;Amm.to costi di pubblicità	;fixed;cost;884
+34013;Amm.to costi di sviluppo	;fixed;cost;885
+34021;Amm.to diritti di brevetto	;fixed;cost;886
+34022;Amm.to diritti d'autore	;fixed;cost;887
+34023;Amm.to software di proprietà	;fixed;cost;888
+34024;Amm.to software in licenza d'uso a tempo indeterm.	;fixed;cost;889
+34025;Amm.to software di produzione interna tutelato	;fixed;cost;890
+34026;Amm.to contratti di know-how	;fixed;cost;891
+34027;Amm.to know-how di produz. interna tutelato	;fixed;cost;892
+34031;Amm.to concessioni	;fixed;cost;893
+34032;Amm.to licenze amministrative	;fixed;cost;894
+34033;Amm.to software in licenza d'uso a tempo determ.	;fixed;cost;895
+34034;Amm.to licenze d'uso	;fixed;cost;896
+34035;Amm.to marchi	;fixed;cost;897
+34036;Amm.to diritti di franchising	;fixed;cost;898
+34037;Amm.to diritti di esclusiva	;fixed;cost;899
+34038;Amm.to costi di acquisizione dei vincoli sportivi	;fixed;cost;900
+34041;Amm.to avviamento	;fixed;cost;901
+34061;Amm.to migliorie e spese increm. su beni di terzi	;fixed;cost;902
+34062;Amm.to oneri accessori su finanziamenti e leasing	;fixed;cost;903
+34063;Amm.to costi per certificazione di qualità	;fixed;cost;904
+34064;Amm.to costi per realizzazione del sito Internet	;fixed;cost;905
+34065;Amm.to software di produz. interna non tutelato	;fixed;cost;906
+34066;Amm.to know-how di produz. interna non tutelato	;fixed;cost;907
+34067;Amm.to oneri pluriennali	;fixed;cost;908
+34101;Amm.to terreni	;fixed;cost;909
+34102;Amm.to fabbricati industriali	;fixed;cost;910
+34103;Amm.to fabbricati civili	;fixed;cost;911
+34105;Amm.to fabbricati abitativi	;fixed;cost;912
+34108;Amm.to costruzioni leggere	;fixed;cost;913
+34111;Amm.to impianti generici	;fixed;cost;914
+34112;Amm.to impianti specifici	;fixed;cost;915
+34114;Amm.to macchinari automatici	;fixed;cost;916
+34115;Amm.to macchinari non automatici	;fixed;cost;917
+34121;Amm.to attrezzatura industriale	;fixed;cost;918
+34122;Amm.to attrezzatura commerciale	;fixed;cost;919
+34123;Amm.to attrezzatura varia e minuta	;fixed;cost;920
+34131;Amm.to mobili e arredi	;fixed;cost;921
+34132;Amm.to macchine ordinarie d'ufficio	;fixed;cost;922
+34133;Amm.to macchine elettroniche d'ufficio	;fixed;cost;923
+34134;Amm.to sistemi telefonici elettronici	;fixed;cost;924
+34135;Amm.to autovetture, motoveicoli e simili	;fixed;cost;925
+34136;Amm.to autoveicoli da trasporto	;fixed;cost;926
+34201;Sval. costi di costituzione	;fixed;cost;927
+34202;Sval. costi per modifiche statutarie	;fixed;cost;928
+34203;Sval. costi di ampliamento	;fixed;cost;929
+34204;Sval. costi di start up	;fixed;cost;930
+34211;Sval. costi di ricerca e sviluppo	;fixed;cost;931
+34212;Sval. costi di pubblicità	;fixed;cost;932
+34213;Sval. costi di sviluppo	;fixed;cost;933
+34221;Sval. diritti di brevetto	;fixed;cost;934
+34222;Sval. diritti d'autore	;fixed;cost;935
+34223;Sval. software di proprietà	;fixed;cost;936
+34224;Sval. software in licenza d'uso a tempo indeterm.	;fixed;cost;937
+34225;Sval. software di produzione interna tutelato	;fixed;cost;938
+34226;Sval. contratti di know-how	;fixed;cost;939
+34227;Sval. know-how di produzione interna tutelato	;fixed;cost;940
+34231;Sval. concessioni	;fixed;cost;941
+34232;Sval. licenze amministrative	;fixed;cost;942
+34233;Sval. software in licenza d'uso a tempo determ.	;fixed;cost;943
+34234;Sval. licenze d'uso	;fixed;cost;944
+34235;Sval. marchi	;fixed;cost;945
+34236;Sval. diritti di franchising	;fixed;cost;946
+34237;Sval. diritti di esclusiva	;fixed;cost;947
+34238;Sval. costi di acquisizione dei vincoli sportivi	;fixed;cost;948
+34241;Sval. avviamento	;fixed;cost;949
+34251;Sval. immobilizzazioni immateriali in corso	;fixed;cost;950
+34252;Sval. acconti a fornitori di immob. immat.	;fixed;cost;951
+34261;Sval. migliorie e spese increm. su beni di terzi	;fixed;cost;952
+34262;Sval. oneri accessori su finanziamenti e leasing	;fixed;cost;953
+34263;Sval. costi per certificazione di qualità	;fixed;cost;954
+34264;Sval. costi per realizzazione del sito Internet	;fixed;cost;955
+34265;Sval. software di produz. interna non tutelato	;fixed;cost;956
+34266;Sval. know-how di produz. interna non tutelato	;fixed;cost;957
+34267;Sval. oneri pluriennali	;fixed;cost;958
+34301;Sval. terreni	;fixed;cost;959
+34302;Sval. fabbricati industriali	;fixed;cost;960
+34303;Sval. fabbricati civili	;fixed;cost;961
+34305;Sval. fabbricati abitativi	;fixed;cost;962
+34308;Sval. costruzioni leggere	;fixed;cost;963
+34311;Sval. impianti generici	;fixed;cost;964
+34312;Sval. impianti specifici	;fixed;cost;965
+34314;Sval. macchinari automatici	;fixed;cost;966
+34315;Sval. macchinari non automatici	;fixed;cost;967
+34321;Sval. attrezzatura industriale	;fixed;cost;968
+34322;Sval. attrezzatura commerciale	;fixed;cost;969
+34323;Sval. attrezzatura varia e minuta	;fixed;cost;970
+34331;Sval. mobili e arredi	;fixed;cost;971
+34332;Sval. macchine ordinarie d'ufficio	;fixed;cost;972
+34333;Sval. macchine elettroniche d'ufficio	;fixed;cost;973
+34334;Sval. sistemi telefonici elettronici	;fixed;cost;974
+34335;Sval. autovetture, motoveicoli e simili	;fixed;cost;975
+34336;Sval. autoveicoli da trasporto	;fixed;cost;976
+34341;Sval. immobilizzazioni materiali in corso	;fixed;cost;977
+34342;Sval. acconti a fornitori di immob. materiali	;fixed;cost;978
+34411;Sval. rimanenze di materie prime	;fixed;cost;979
+34412;Sval. rimanenze di materie sussidiarie	;fixed;cost;980
+34413;Sval. rimanenze di materie di consumo	;fixed;cost;981
+34421;Sval. rimanenze di prodotti in corso di lavoraz.	;fixed;cost;982
+34422;Sval. rimanenze di semilavorati	;fixed;cost;983
+34431;Sval. rimanenze di lavori in corso su ordinazione	;fixed;cost;984
+34432;Sval. rimanenze di immobili in corso di costruz.	;fixed;cost;985
+34441;Sval. rimanenze di prodotti finiti	;fixed;cost;986
+34442;Sval. rimanenze di immobili destinati a rivendita	;fixed;cost;987
+34443;Sval. rimanenze di merci	;fixed;cost;988
+34444;Sval. immobilizz. materiali destinate rivendita	;fixed;cost;989
+34445;Sval. di rimanenze di prodotti soggetti ad aggio	;fixed;cost;990
+34446;Sval. di rimanenze di beni usati	;fixed;cost;991
+34510;Acc.to al f/sval. crediti v/clienti	;fixed;cost;992
+34530;Acc.to al f/sval. crediti v/clienti diversi	;fixed;cost;993
+34540;Acc.to al f/sval. crediti tributari	;fixed;cost;994
+34550;Acc.to al f/sval. crediti diversi	;fixed;cost;995
+34560;Acc.to al f/sval. depositi bancari e postali;fixed;cost;996
+34610;Acc.to al f/garanzia prodotti	;fixed;cost;997
+34620;Acc.to al f/lavori ciclici manut. e revisione	;fixed;cost;998
+34630;Acc.to al f/concorsi a premio	;fixed;cost;999
+34640;Acc.to al f/operazioni a premio	;fixed;cost;1000
+34650;Acc.to al f/manut. riprist. beni azienda in aff.	;fixed;cost;1001
+34660;Acc.to al f/ripr. sost. beni gratuitamente devolv.	;fixed;cost;1002
+34690;Acc.to al f/recupero ambientale	;fixed;cost;1003
+34691;Acc.to al f/prepensionamento e ristrutturazioni az	;fixed;cost;1004
+34692;Acc.to al f/contratti onerosi	;fixed;cost;1005
+34699;Altri acc.ti al f/oneri;fixed;cost;1006
+34710;Acc.to al f/rischi controversie legali in corso	;fixed;cost;1007
+34799;Altri acc.ti al f/altri rischi;fixed;cost;1008
+35001;Imposta di registro	;fixed;cost;1009
+35002;Imposta di bollo	;fixed;cost;1010
+35003;Imposta di bollo virtuale	;fixed;cost;1011
+35004;Imposte ipotecarie e catastali	;fixed;cost;1012
+35005;Imposta di fabbricazione	;fixed;cost;1013
+35006;Imposta sugli intrattenimenti	;fixed;cost;1014
+35011;IVA da rettifica	;fixed;cost;1015
+35012;IVA su cessioni gratuite	;fixed;cost;1016
+35013;IVA su acquisti non documentati da fattura	;fixed;cost;1017
+35014;IVA indetraibile da pro-rata	;fixed;cost;1018
+35015;Iva indetraibile agricoltura	;fixed;cost;1019
+35016;Iva da adeguamento a studi di settore	;fixed;cost;1020
+35021;Imposta comunale di pubblicità	;fixed;cost;1021
+35022;Imposta comunale sugli immobili (ICI)	;fixed;cost;1022
+35023;Imposta municipale unica (IMU)	;fixed;cost;1023
+35024;Tassa sui servizi indivisibili (Tasi)	;fixed;cost;1024
+35031;Tassa concessione governativa telefonia mobile	;fixed;cost;1025
+35032;Tassa di possesso autovetture	;fixed;cost;1026
+35033;Tassa di possesso autoveicoli da trasporto	;fixed;cost;1027
+35034;Tassa smaltimento rifiuti	;fixed;cost;1028
+35035;Tassa vidimazione libri sociali	;fixed;cost;1029
+35040;Tributi locali	;fixed;cost;1030
+35099;Altre imposte e tasse	;fixed;cost;1031
+35110;Diritto annuale CCIAA	;fixed;cost;1032
+35120;Diritti camerali su depositi	;fixed;cost;1033
+35130;Diritti SIAE	;fixed;cost;1034
+35199;Altri diritti vari;fixed;cost;1035
+35201;Abbuoni e arrotondamenti passivi	;fixed;cost;1036
+35202;Minusvalenze ordinarie	;fixed;cost;1037
+35203;Sopravvenienze passive ordinarie	;fixed;cost;1038
+35204;Insussistenze passive ordinarie	;fixed;cost;1039
+35205;Penalità addebitate da clienti	;fixed;cost;1040
+35206;Penalità addebitate da fornitori	;fixed;cost;1041
+35210;Perdite su crediti	;fixed;cost;1042
+35215;Valori bollati	;fixed;cost;1043
+35220;Contributi associazioni sindacali e di categoria	;fixed;cost;1044
+35221;Contributo annuale iscrizione ordine professionale	;fixed;cost;1045
+35225;Quote associative	;fixed;cost;1046
+35230;Abbonamenti, libri, riviste e banche dati	;fixed;cost;1047
+35235;Vidimazioni	;fixed;cost;1048
+35240;Erogazioni liberali	;fixed;cost;1049
+35245;Oneri di utilità sociale	;fixed;cost;1050
+35250;Omaggi e articoli promozionali	;fixed;cost;1051
+35255;Multe e ammende	;fixed;cost;1052
+35256;Sanzioni amministrative	;fixed;cost;1053
+35257;Maggiorazione da adeguamento a studi di settore	;fixed;cost;1054
+35260;Manutenzioni e riparazioni su beni locati a terzi	;fixed;cost;1055
+35265;Altri costi inerenti a gestioni accessorie	;fixed;cost;1056
+35270;Costi per sicurezza dei luoghi di lavoro	;fixed;cost;1057
+35280;Oneri per star del credere	;fixed;cost;1058
+35290;Spese per acquisizione clientela	;fixed;cost;1059
+35291;Spese per liquidazione parcelle	;fixed;cost;1060
+35292;Spese per risarcimento danni a terzi	;fixed;cost;1061
+35293;Spese ammod., ristrutt., manut. immobili di terzi	;fixed;cost;1062
+35294;Spese ammod., ristrutt., manut. immobili propri	;fixed;cost;1063
+35298;Spese non documentate	;fixed;cost;1064
+35299;Altri oneri diversi di gestione;fixed;cost;1065
+35310;Sconti, abbuoni, rettifiche su oneri diversi;fixed;cost;1066
+36011;Materie prime c/rim. iniz.	;fixed;cost;1067
+36012;Materie sussidiarie c/rim. iniz.	;fixed;cost;1068
+36013;Materie di consumo c/rim. iniz.	;fixed;cost;1069
+36021;Prodotti in corso di lavorazione c/rim. iniz.	;fixed;cost;1070
+36022;Semilavorati c/rim. iniz.	;fixed;cost;1071
+36031;Lavori in corso su ordinazione c/rim. iniz.	;fixed;cost;1072
+36032;Immobili in corso di costruzione c/rim. iniz.	;fixed;cost;1073
+36041;Prodotti finiti c/rim. iniz.	;fixed;cost;1074
+36042;Immobili destinati alla rivendita c/rim. iniz.	;fixed;cost;1075
+36043;Merci c/rim. iniz.	;fixed;cost;1076
+36044;Immobilizz. materiali dest. rivendita c/rim. iniz.	;fixed;cost;1077
+36045;Prodotti soggetti ad aggio c/rim. iniz.	;fixed;cost;1078
+36046;Beni usati c/rim. iniz.;fixed;cost;1079
+37010;Minusv. da alienaz. partecipazioni immobilizzate	;fixed;cost;1080
+37020;Minusv. da alienaz. partecipazioni non immobilizz.	;fixed;cost;1081
+37111;Interessi passivi su depositi bancari	;fixed;cost;1082
+37112;Interessi passivi su anticipi import/export	;fixed;cost;1083
+37120;Interessi passivi di mora	;fixed;cost;1084
+37131;Interessi passivi su mutui	;fixed;cost;1085
+37132;Interessi passivi di factoring	;fixed;cost;1086
+37133;Interessi passivi su prestiti e finanziamenti	;fixed;cost;1087
+37135;Interessi passivi su acq./finanziam. autovetture	;fixed;cost;1088
+37141;Interessi passivi su debiti commerciali	;fixed;cost;1089
+37142;Interessi passivi su debiti finanziari	;fixed;cost;1090
+37145;Interessi passivi da costo ammortizzato	;fixed;cost;1091
+37150;Interessi passivi su obbligazioni	;fixed;cost;1092
+37160;Interessi passivi su titoli	;fixed;cost;1093
+37171;Interessi passivi su liquidazioni IVA trimestrali	;fixed;cost;1094
+37172;Interessi passivi su versamenti imposte	;fixed;cost;1095
+37175;Interessi passivi da attualizzazione	;fixed;cost;1096
+37199;Altri interessi passivi;fixed;cost;1097
+37201;Commissioni di massimo scoperto	;fixed;cost;1098
+37202;Commissioni d'incasso	;fixed;cost;1099
+37211;Sconti finanziari passivi	;fixed;cost;1100
+37212;Sconti passivi su effetti	;fixed;cost;1101
+37220;Quota annua disaggio su prestiti obbligazionari	;fixed;cost;1102
+37230;Minusvalenze da alienazione titoli immob.	;fixed;cost;1103
+37235;Minusvalenze da alienazione titoli non immob.	;fixed;cost;1104
+37240;Minusv. alienaz. altre attività finanz. immob.	;fixed;cost;1105
+37245;Minusv. alienaz. altre attività finanz. non immob.	;fixed;cost;1106
+37250;Oneri finanziari su prestiti e finanziamenti	;fixed;cost;1107
+37261;Perdite da associante in partecipazione	;fixed;cost;1108
+37262;Utili a associato in partecipazione	;fixed;cost;1109
+37291;Perdite su cambi	;fixed;cost;1110
+37292;Acc.to al f/rischi su cambi	;fixed;cost;1111
+37299;Altri oneri finanziari;fixed;cost;1112
+37310;Sval. partecipazioni immobilizzate	;fixed;cost;1113
+37315;Sval. partecipazioni non immobilizzate	;fixed;cost;1114
+37321;Sval. crediti finanziari immobilizzati	;fixed;cost;1115
+37322;Sval. titoli di Stato immobilizzati	;fixed;cost;1116
+37323;Sval. obbligazioni immobilizzate	;fixed;cost;1117
+37324;Sval. altri titoli immobilizzati	;fixed;cost;1118
+37325;Sval. azioni proprie immobilizzate	;fixed;cost;1119
+37326;Sval. depositi cauzionali immobilizzati	;fixed;cost;1120
+37327;Sval. associante c/apporto	;fixed;cost;1121
+37328;Sval. crediti v/assicurazioni per TFR assicurato	;fixed;cost;1122
+37331;Sval. crediti finanziari non immobilizzati	;fixed;cost;1123
+37332;Sval. titoli di Stato non immobilizzati	;fixed;cost;1124
+37333;Sval. obbligazioni non immobilizzate	;fixed;cost;1125
+37334;Sval. altri titoli non immobilizzati	;fixed;cost;1126
+37335;Sval. azioni proprie non immobilizzate	;fixed;cost;1127
+37336;Sval. depositi cauzionali non immobilizzati	;fixed;cost;1128
+37338;Svalutazioni di strumenti finanziari derivati	;fixed;cost;1129
+37340;Acc.to al f/copertura perdite società partecipate;fixed;cost;1130
+38010;Minusv. da operazioni straordinarie	;fixed;cost;1131
+38020;Minusv. straordinarie da cessione beni strum.	;fixed;cost;1132
+38030;Minusv. straordinarie da cessione partecipazioni	;fixed;cost;1133
+38040;Altre minusvalenze straordinarie;fixed;cost;1134
+38110;IRES esercizi precedenti	;fixed;cost;1135
+38115;IRAP esercizi precedenti	;fixed;cost;1136
+38120;Interessi su imposte esercizi precedenti	;fixed;cost;1137
+38130;Sanzioni su imposte esercizi precedenti	;fixed;cost;1138
+38140;Acc.to al f/imposte da contenziosi in corso	;fixed;cost;1139
+38199;Altre imposte esercizi precedenti;fixed;cost;1140
+38210;Sopravvenienze passive straordinarie	;fixed;cost;1141
+38220;Rettifiche negative di costi e ricavi di es. prec.	;fixed;cost;1142
+38230;Insussistenze passive straordinarie	;fixed;cost;1143
+38240;Svalutazioni straordinarie	;fixed;cost;1144
+38299;Altri oneri straordinari;fixed;cost;1145
+39010;IRES dell'esercizio	;fixed;cost;1146
+39015;Maggiorazione IRES dell'esercizio	;fixed;cost;1147
+39020;IRAP dell'esercizio	;fixed;cost;1148
+39030;Imposte sostitutive;fixed;cost;1149
+39110;IRES differita	;fixed;cost;1150
+39120;IRAP differita	;fixed;cost;1151
+39160;Rigiro IRES differita	;fixed;cost;1152
+39170;Rigiro IRAP differita;fixed;cost;1153
+39260;Proventi da consolidato fiscale;fixed;cost;1154
+39210;Oneri da consolidato fiscale;fixed;cost;1155
+39360;Proventi da trasparenza fiscale;fixed;cost;1156
+39310;Oneri da trasparenza fiscale;fixed;cost;1157
+39510;Utile di esercizio;unnotable;unnotable;1158
+39520;Utile di esercizio di pertinenza del gruppo;unnotable;unnotable;1159
+39530;Utile di esercizio di pertinenza di terzi;unnotable;unnotable;1160
+39560;Perdita di esercizio;unnotable;unnotable;1161
+39570;Perdita di esercizio di pertinenza del gruppo;unnotable;unnotable;1162
+39580;Perdita di esercizio di pertinenza di terzi;unnotable;unnotable;1163
+40010;Merci c/vendite;variable;revenue;1164
+40015;Ricavi da vendite a beneficiari 36/55%;variable;revenue;1165
+40016;Prodotti soggetti ad aggio c/vendite;variable;revenue;1166
+40020;Prodotti finiti c/vendite;variable;revenue;1167
+40030;Vendita di immobili;variable;revenue;1168
+40040;Semilavorati c/vendite;variable;revenue;1169
+40050;Materie prime, sussidiarie e di consumo c/vendite;variable;revenue;1170
+40060;Ricavi attività di agriturismo;variable;revenue;1171
+40070;Beni usati c/vendite;variable;revenue;1172
+40075;Merci usate c/vendita occasionale margine;variable;revenue;1173
+40080;Corrispettivi a ventilazione;variable;revenue;1174
+40099;Altri ricavi delle vendite;variable;revenue;1175
+40110;Ricavi per prestazioni di servizi		;variable;revenue;1176
+40115;Ricavi da servizi a beneficiari 36/55%	;variable;revenue;1177
+40120;Lavorazioni c/terzi	;variable;revenue;1178
+40130;Trasporti c/terzi	;variable;revenue;1179
+40140;Provvigioni attive	;variable;revenue;1180
+40150;Fitti e noleggi attivi	;variable;revenue;1181
+40151;Canoni attivi per affitto di azienda	;variable;revenue;1182
+40160;Aggi e commissioni attive	;variable;revenue;1183
+40170;Ricavi per sponsorizzazioni	;variable;revenue;1184
+40171;Ricavi per pubblicità	;variable;revenue;1185
+40172;Ricavi per cessioni diritti radio e TV	;variable;revenue;1186
+40173;Ricavi per altri proventi	;variable;revenue;1187
+40181;Ricavi organiz. pacchetti/servizi turistici (UE)	;variable;revenue;1188
+40182;Ricavi organiz. pacch/servizi turistici (ExtraUE)	;variable;revenue;1189
+40183;Ricavi organiz. pacch/servizi turistici (misti)	;variable;revenue;1190
+40184;Ricavi vendite singoli servizi turistici (UE)	;variable;revenue;1191
+40185;Ricavi vendite singoli servizi turistici (ExtraUE)	;variable;revenue;1192
+40186;Ricavi vendite singoli servizi turistici (misti)	;variable;revenue;1193
+40187;Ricavi vendite pacc.turistici tour operator (UE)	;variable;revenue;1194
+40188;Ricavi vendite pacc.turistici tour oper. (ExtraUE)	;variable;revenue;1195
+40189;Ricavi vendite pacc.turistici tour oper. (misti)	;variable;revenue;1196
+40190;Compensi professionali	;variable;revenue;1197
+40191;Rivalsa contributo integrativo CNP	;variable;revenue;1198
+40192;Compensi convenzionali ONG	;variable;revenue;1199
+40193;Rimborso spese processuali	;variable;revenue;1200
+40199;Altri ricavi per prestazioni di servizi;variable;revenue;1201
+40210;Autoconsumo di beni merce	;variable;revenue;1202
+40220;Autoconsumo di beni strumentali	;variable;revenue;1203
+40230;Autoconsumo di servizi	;variable;revenue;1204
+40240;Assegnazione a soci di beni merce	;variable;revenue;1205
+40250;Assegnazione a soci di beni strumentali	;variable;revenue;1206
+40260;Destin. beni merce finalità estranee a impresa	;variable;revenue;1207
+40270;Destin. beni strum. finalità estranee a impresa	;variable;revenue;1208
+40280;Destin. beni merce finalità estranee a arte/prof.	;variable;revenue;1209
+40290;Destin. beni strum. finalità estranee a arte/prof.;variable;revenue;1210
+40310;Ricavi agricoltura - compensazione 12,3%	;variable;revenue;1211
+40320;Ricavi agricoltura - compensazione 8,8%	;variable;revenue;1212
+40330;Ricavi agricoltura - compensazione 8,5%	;variable;revenue;1213
+40340;Ricavi agricoltura - compensazione 8,3%	;variable;revenue;1214
+40350;Ricavi agricoltura - compensazione 7,5%	;variable;revenue;1215
+40360;Ricavi agricoltura - compensazione 7,3%	;variable;revenue;1216
+40370;Ricavi agricoltura - compensazione 7%	;variable;revenue;1217
+40380;Ricavi agricoltura - compensazione 4%	;variable;revenue;1218
+40390;Ricavi agricoltura - compensazione 2%;variable;revenue;1219
+40410;Sconti e abbuoni su vendite di beni	;variable;revenue;1220
+40415;Sconti e abbuoni su vendite di beni usati	;variable;revenue;1221
+40420;Premi su vendite di beni	;variable;revenue;1222
+40430;Resi su vendite di beni	;variable;revenue;1223
+40435;Resi su vendite di beni usati	;variable;revenue;1224
+40460;Sconti e abbuoni su ricavi da prestazioni	;variable;revenue;1225
+40470;Premi su ricavi da prestazioni	;variable;revenue;1226
+40480;Rettifiche su ricavi da prestazioni	;variable;revenue;1227
+40481;Rettifiche ricavi org. pacch/serv.turistici (UE)	;variable;revenue;1228
+40482;Rettif. ricavi org. pacch/serv.turistici (ExtraUE)	;variable;revenue;1229
+40483;Rettifiche ricavi org.pacch/serv.turistici (misti)	;variable;revenue;1230
+40484;Rettifiche ricavi vendita servizi turistici (UE)	;variable;revenue;1231
+40485;Rettif. ricavi vendita servizi turistici (ExtraUE)	;variable;revenue;1232
+40486;Rettif. ricavi vendita servizi turistici (misti)	;variable;revenue;1233
+40487;Rettif. ricavi pacch.turistici tour oper. (UE)	;variable;revenue;1234
+40488;Rettif. ricavi pacch.turistici tour oper.(ExtraUE)	;variable;revenue;1235
+40489;Rettif. ricavi pacch.turistici tour oper. (misti)	;variable;revenue;1236
+40490;Rettifiche su ricavi agenzie di viaggio;variable;revenue;1237
+41010;Incrementi di immobilizzazioni immateriali	;variable;revenue;1238
+41020;Incrementi di immobilizzazioni materiali	;variable;revenue;1239
+41030;Incrementi di immobilizzazioni finanziarie	;variable;revenue;1240
+41050;Costruzioni in economia;variable;revenue;1241
+41101;Abbuoni e arrotondamenti attivi	;variable;revenue;1242
+41102;Plusvalenze ordinarie	;variable;revenue;1243
+41103;Sopravvenienze attive ordinarie	;variable;revenue;1244
+41104;Insussistenze attive ordinarie	;variable;revenue;1245
+41105;Penalità addebitate a fornitori	;variable;revenue;1246
+41106;Penalità addebitate a clienti	;variable;revenue;1247
+41110;Rimborsi spese	;variable;revenue;1248
+41115;Rendita Iva agricoltura	;variable;revenue;1249
+41116;Ricavi da IVA L.398/91	;variable;revenue;1250
+41120;Omaggi da fornitori	;variable;revenue;1251
+41125;Liberalità ricevute	;variable;revenue;1252
+41130;Indennità per risarcimenti danni	;variable;revenue;1253
+41135;Indennità sostitutive del reddito professionale	;variable;revenue;1254
+41140;Proventi per cessione contratti di leasing	;variable;revenue;1255
+41141;Proventi per cessione clientela	;variable;revenue;1256
+41145;Proventi da royalties, brevetti, marchi	;variable;revenue;1257
+41150;Provvigioni attive occasionali	;variable;revenue;1258
+41155;Fitti e noleggi attivi occasionali	;variable;revenue;1259
+41160;Proventi per riduzione di fondi rischi e oneri	;variable;revenue;1260
+41170;Proventi per indennità cessazione rapporti agenzia	;variable;revenue;1261
+41175;Proventi da star del credere	;variable;revenue;1262
+41180;Riaddebito canoni leasing beni mobili	;variable;revenue;1263
+41181;Riaddebito canoni di locazione e/o di noleggio	;variable;revenue;1264
+41182;Riaddebito spese relative agli immobili	;variable;revenue;1265
+41183;Riaddebito spese prestazioni lavoro dipendente	;variable;revenue;1266
+41185;Riaddebito consumi telefonici e di energia	;variable;revenue;1267
+41190;Credito d'imposta Irap L.190/2014, c.21	;variable;revenue;1268
+41191;Sopravvenienza per credito IRES riconosciuto da AE	;variable;revenue;1269
+41192;Sopravvenienza per credito IRAP riconosciuto da AE	;variable;revenue;1270
+41193;Sopravvenienza per credito IVA riconosciuto da AE	;variable;revenue;1271
+41199;Altri ricavi e proventi vari	;variable;revenue;1272
+41210;Contributi c/esercizio	;variable;revenue;1273
+41220;Contributi c/interessi	;variable;revenue;1274
+41230;Crediti d'imposta	;variable;revenue;1275
+41240;Contributi c/capitale	;variable;revenue;1276
+41250;Contributi c/impianti	;variable;revenue;1277
+41260;Contributi straordinari c/esercizio;variable;revenue;1278
+41310;Ripristino di valore immobilizzazioni immateriali	;variable;revenue;1279
+41320;Ripristino di valore immobilizzazioni materiali	;variable;revenue;1280
+41510;Sconti, abbuoni, resi, premi su altri ricavi	;variable;revenue;1281
+42011;Materie prime c/rim. fin.	;variable;revenue;1282
+42012;Materie sussidiarie c/rim. fin.	;variable;revenue;1283
+42013;Materie di consumo c/rim. fin.	;variable;revenue;1284
+42021;Prodotti in corso di lavorazione c/rim. fin.	;variable;revenue;1285
+42022;Semilavorati c/rim. fin.	;variable;revenue;1286
+42031;Lavori in corso su ordinazione c/rim. fin.	;variable;revenue;1287
+42032;Immobili in corso di costruzione c/rim. fin.	;variable;revenue;1288
+42041;Prodotti finiti c/rim. fin.	;variable;revenue;1289
+42042;Immobili destinati alla rivendita c/rim. fin.	;variable;revenue;1290
+42043;Merci c/rim. fin.	;variable;revenue;1291
+42044;Immobilizz. materiali dest. rivendita c/rim. fin.	;variable;revenue;1292
+42045;Prodotti soggetti ad aggio c/rim. fin.	;variable;revenue;1293
+42046;Beni usati c/rim. fin.	;variable;revenue;1294
+43010;Dividendi e utili da partecipazioni immob.	;variable;revenue;1295
+43020;Dividendi e utili da partecipazioni non immob.	;variable;revenue;1296
+43030;Proventi da vendita diritti d'opzione	;variable;revenue;1297
+43040;Plusv. da alienaz. partecipazioni immobilizzate	;variable;revenue;1298
+43050;Plusv. da alienaz. partecipazioni non immobilizz.	;variable;revenue;1299
+43098;Altri proventi da partecipazioni immob.	;variable;revenue;1300
+43099;Altri proventi da partecipazioni non immob.	;variable;revenue;1301
+43105;Interessi attivi su depositi bancari	;fixed;revenue;1302
+43110;Interessi attivi su depositi postali	;fixed;revenue;1303
+43115;Interessi attivi di mora	;fixed;revenue;1304
+43120;Interessi attivi su crediti v/clienti	;fixed;revenue;1305
+43125;Interessi attivi su crediti v/clienti diversi	;fixed;revenue;1306
+43130;Interessi attivi su crediti tributari	;fixed;revenue;1307
+43135;Interessi attivi su crediti diversi	;fixed;revenue;1308
+43140;Interessi attivi su crediti finanziari immob.	;fixed;revenue;1309
+43145;Interessi attivi da costo ammortizzato	;fixed;revenue;1310
+43150;Interessi attivi su crediti finanziari non immob.	;fixed;revenue;1311
+43160;Interessi attivi su titoli immob.	;fixed;revenue;1312
+43170;Interessi attivi su titoli non immob.	;fixed;revenue;1313
+43175;Interessi attivi da attualizzazione	;fixed;revenue;1314
+43180;Interessi attivi su altre attività finanz. immob.	;fixed;revenue;1315
+43190;Interessi attivi altre attività finanz. non immob.	;fixed;revenue;1316
+43199;Altri interessi attivi;fixed;revenue;1317
+43210;Sconti finanziari attivi	;fixed;revenue;1318
+43220;Quota annua aggio su prestiti obbligazionari	;fixed;revenue;1319
+43230;Plusvalenze da alienazione di titoli immob.	;fixed;revenue;1320
+43235;Plusvalenze da alienazione di titoli non immob.	;fixed;revenue;1321
+43240;Plusv. alienaz. altre attività finanz. immob.	;fixed;revenue;1322
+43245;Plusv. alienaz. altre attività finanz. non immob.	;fixed;revenue;1323
+43250;Proventi su polizze assicurative	;fixed;revenue;1324
+43261;Utili da associante in partecipazione	;fixed;revenue;1325
+43262;Perdite a associato in partecipazione	;fixed;revenue;1326
+43290;Utili su cambi	;fixed;revenue;1327
+43299;Altri proventi finanziari diversi;fixed;revenue;1328
+43310;Rival. partecipazioni immobilizzate	;fixed;revenue;1329
+43315;Rival. partecipazioni non immobilizzate	;fixed;revenue;1330
+43320;Rival. immobilizzaz. finanz. non partecipazioni	;fixed;revenue;1331
+43330;Rival. titoli iscritti nell'attivo circolante	;fixed;revenue;1332
+43345;Rivalutazioni di strumenti finanziari derivati;fixed;revenue;1333
+44010;Plusv. da operazioni straordinarie	;fixed;revenue;1334
+44020;Plusv. straordinarie da cessione beni strum.	;fixed;revenue;1335
+44030;Plusv. straordinarie da cessione partecipazioni	;fixed;revenue;1336
+44040;Altre plusvalenze straordinarie;fixed;revenue;1337
+44110;Sopravvenienze attive straordinarie	;fixed;revenue;1338
+44115;Sopravvenienze attive da rettifiche di imposte	;fixed;revenue;1339
+44120;Rettifiche positive di costi e ricavi di es. prec.	;fixed;revenue;1340
+44130;Insussistenze attive straordinarie	;fixed;revenue;1341
+44140;Rivalutazioni straordinarie	;fixed;revenue;1342
+44199;Altri proventi straordinari diversi	;fixed;revenue;1343
+45010;IRES anticipata	;fixed;revenue;1344
+45020;IRAP anticipata;fixed;revenue;1345
+45060;Rigiro IRES anticipata;fixed;revenue;1346
+45070;Rigiro IRAP anticipata;fixed;revenue;1347
+50010;Imprese controllate c/fideiussioni prestate;fixed;revenue;1348
+50020;Imprese collegate c/fideiussioni prestate;fixed;revenue;1349
+50030;Imprese controllanti c/fideiussioni prestate;fixed;revenue;1350
+50040;Impr. contr. da controllanti c/fid. prestate;fixed;revenue;1351
+50099;Altre imprese c/fideiussioni prestate;fixed;revenue;1352
+51010;Imprese controllate c/avalli prestati;fixed;revenue;1353
+51020;Imprese collegate c/avalli prestati;fixed;revenue;1354
+51030;Imprese controllanti c/avalli prestati;fixed;revenue;1355
+51040;Impr. contr. da controllanti c/avalli prestati;fixed;revenue;1356
+51099;Altre imprese c/avalli prestati;fixed;revenue;1357
+52010;Imprese controllate c/altre garanzie pers. prest.;fixed;revenue;1358
+52020;Imprese collegate c/altre garanzie pers. prest.;fixed;revenue;1359
+52030;Imprese controllanti c/altre garanzie pers. prest.;fixed;revenue;1360
+52040;Impr. contr. da controllanti c/altre gar. pers.pr.;fixed;revenue;1361
+52099;Altre imprese c/altre garanzie pers. prest.;fixed;revenue;1362
+53010;Imprese controllate c/garanzie reali prestate;fixed;revenue;1363
+53020;Imprese collegate c/garanzie reali prestate;fixed;revenue;1364
+53030;Imprese controllanti c/garanzie reali prestate;fixed;revenue;1365
+53040;Impr. contr. da controllanti c/gar. reali prest.;fixed;revenue;1366
+53099;Altre imprese c/garanzie reali prestate;fixed;revenue;1367
+54010;Crediti ceduti pro-solvendo;fixed;revenue;1368
+54020;Effetti scontati;fixed;revenue;1369
+54030;Ricevute bancarie all'incasso;fixed;revenue;1370
+54040;Fatture cedute;fixed;revenue;1371
+54099;Altri rischi		;fixed;revenue;1372
+55010;Merci da ricevere;fixed;revenue;1373
+55020;Immobilizzazioni da ricevere;fixed;revenue;1374
+55030;Valute da ricevere;fixed;revenue;1375
+55040;Titoli da ricevere;fixed;revenue;1376
+55099;Altri impegni v/fornitori;fixed;revenue;1377
+56010;Clienti c/merci da consegnare;fixed;revenue;1378
+56020;Clienti c/immobilizzazioni da consegnare;fixed;revenue;1379
+56030;Clienti c/valute da consegnare;fixed;revenue;1380
+56040;Clienti c/titoli da consegnare;fixed;revenue;1381
+56099;Clienti c/altri impegni;fixed;revenue;1382
+57010;Beni di terzi presso l'impresa in deposito;fixed;revenue;1383
+57020;Beni di terzi presso l'impresa in pegno;fixed;revenue;1384
+57030;Beni di terzi presso l'impresa in cauzione;fixed;revenue;1385
+57040;Beni di terzi presso l'impresa in lavorazione;fixed;revenue;1386
+57050;Beni di terzi presso l'impresa in comodato;fixed;revenue;1387
+57060;Beni di terzi presso l'impresa in conto vendita;fixed;revenue;1388
+57070;Beni di terzi presso l'impresa in affitto;fixed;revenue;1389
+57080;Beni di terzi presso l'impresa in locazione;fixed;revenue;1390
+57090;Beni di terzi presso l'impresa in leasing;fixed;revenue;1391
+57099;Altri beni di terzi presso l'impresa;fixed;revenue;1392
+58010;Terzi c/beni dell'impresa;fixed;revenue;1393
+60010;Fideiussioni prestate a imprese controllate;fixed;revenue;1394
+60020;Fideiussioni prestate a imprese collegate;fixed;revenue;1395
+60030;Fideiussioni prestate a imprese controllanti;fixed;revenue;1396
+60040;Fid. prestate a imprese contr. da controllanti;fixed;revenue;1397
+60099;Fideiussioni prestate ad altre imprese;fixed;revenue;1398
+61010;Avalli prestati a imprese controllate	;fixed;revenue;1399
+61020;Avalli prestati a imprese collegate	;fixed;revenue;1400
+61030;Avalli prestati a imprese controllanti	;fixed;revenue;1401
+61040;Avalli prestati a impr. contr. da controllanti	;fixed;revenue;1402
+61099;Avalli prestati ad altre imprese;fixed;revenue;1403
+62010;Altre garanzie pers. prestate a impr. controllate	;fixed;revenue;1404
+62020;Altre garanzie pers. prestate a impr. collegate	;fixed;revenue;1405
+62030;Altre garanzie pers. prestate a impr. controllanti	;fixed;revenue;1406
+62040;Altre garanzie pers.  impr. contr. da controllanti	;fixed;revenue;1407
+62099;Altre garanzie pers. prestate ad altre imprese;fixed;revenue;1408
+63010;Garanzie reali prestate a imprese controllate	;fixed;revenue;1409
+63020;Garanzie reali prestate a imprese collegate	;fixed;revenue;1410
+63030;Garanzie reali prestate a imprese controllanti	;fixed;revenue;1411
+63040;Garanzie reali pr. imprese contr. da controllanti	;fixed;revenue;1412
+63099;Garanzie reali prestate ad altre imprese;fixed;revenue;1413
+64010;Cessionari c/crediti ceduti pro-solvendo	;fixed;revenue;1414
+64020;Banche c/effetti scontati	;fixed;revenue;1415
+64030;Banche c/ricevute bancarie all'incasso	;fixed;revenue;1416
+64040;Banche c/fatture cedute	;fixed;revenue;1417
+64099;Tezi c/altri rischi;fixed;revenue;1418
+65010;Fornitori c/merci da ricevere	;fixed;revenue;1419
+65020;Fornitori c/immobilizzazioni da ricevere	;fixed;revenue;1420
+65030;Fornitori c/valute da ricevere	;fixed;revenue;1421
+65040;Fornitori c/titoli da ricevere	;fixed;revenue;1422
+65099;Fornitori c/altri impegni;fixed;revenue;1423
+66010;Merci da consegnare	;fixed;revenue;1424
+66020;Immobilizzazioni da consegnare	;fixed;revenue;1425
+66030;Valute da consegnare	;fixed;revenue;1426
+66040;Titoli da consegnare	;fixed;revenue;1427
+66099;Altri impegni v/clienti	;fixed;revenue;1428
+67010;Terzi c/beni presso l'impresa in deposito;fixed;revenue;1429
+67020;Terzi c/beni presso l'impresa in pegno;fixed;revenue;1430
+67030;Tezi c/beni presso l'impresa in cauzione;fixed;revenue;1431
+67040;Terzi c/beni presso l'impresa in lavorazione;fixed;revenue;1432
+67050;Terzi c/beni presso l'impresa in comodato;fixed;revenue;1433
+67060;Terzi c/beni presso l'impresa in conto vendita;fixed;revenue;1434
+67070;Terzi c/beni presso l'impresa in affitto;fixed;revenue;1435
+67080;Terzi c/beni presso l'impresa in locazione;fixed;revenue;1436
+67090;Terzi c/beni presso l'impresa in leasing;fixed;revenue;1437
+67099;Terzi c/altri beni presso l'impresa;fixed;revenue;1438
+68010;Beni dell'impresa presso terzi;fixed;revenue;1439
+80010;Autofattura;fixed;revenue;1440
+80015;Margine Iva;fixed;revenue;1441
+80020;Corrispettivi;fixed;revenue;1442
+80025;Corrispettivi da cessione di titoli e quote;fixed;revenue;1443
+80030;Acquisti extra UE c/transitorio;fixed;revenue;1444
+80035;Revoca contributi;fixed;revenue;1445
+80040;Conto non reddituale;fixed;revenue;1446
+80050;Ricavi da reverse charge;fixed;revenue;1447
+80055;Clienti da reverse charge;fixed;revenue;1448
+80060;Acquisti intracomunitari c/transitorio;fixed;revenue;1449
+80065;Acquisti in reverse charge c/transitorio;fixed;revenue;1450
+80066;Acquisti in split payment c/transitorio;fixed;revenue;1451
+80070;Acquisti da soggetti non residenti c/transitorio;fixed;revenue;1452
+80075;Acquisti da San Marino c/transitorio;fixed;revenue;1453
+80080;Compensazioni partite;fixed;revenue;1454
+80098;Conto transitorio Stato Patrimoniale;fixed;revenue;1455
+80099;Conto transitorio Conto Economico;fixed;revenue;1456
+80100;Crediti d'imposta c/transitorio;fixed;revenue;1457
+80101;Ritenute subite c/transitorio;fixed;revenue;1458
+90010;Bilancio di apertura;unnotable;unnotable;1459
+90020;Bilancio di chiusura;unnotable;unnotable;1460
+90090;Conto economico;unnotable;unnotable;1461

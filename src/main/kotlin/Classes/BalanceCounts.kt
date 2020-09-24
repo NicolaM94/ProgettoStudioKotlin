@@ -1,6 +1,8 @@
 package Classes
 
-open class Asset (val id:Double, name:String, type:String, value:Double) {
+
+
+open class Active (val id:Double, name:String, type:String, value:Double) {
 
     var name:String = name
 
@@ -14,9 +16,10 @@ open class Asset (val id:Double, name:String, type:String, value:Double) {
 
     fun valueChanger (newValue:Double) { value=newValue }
 
+
 }
 
-open class Debt (val id:Double,name:String, type: String, value: Double) {
+open class Passive (val id:Double, name:String, type: String, value: Double) {
 
     var name:String = name
 
