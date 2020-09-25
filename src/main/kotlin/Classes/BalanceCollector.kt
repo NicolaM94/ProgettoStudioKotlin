@@ -42,11 +42,30 @@ class BalanceCollector (pathToBalance:String) {
                         row.getCell(2).toString().toDouble()
                     )
                 )
+            } else if (testCell.startsWith("2")) {
+                passiveMap.set(
+                    mapOfCounts.getValue(testCell.take(5).toInt()).toInt(), Passive(
+                        testCell.toDouble(),
+                        row.getCell(4).toString(),
+                        "debt",
+                        row.getCell(5).toString().toDouble() * -1
+                    )
+                )
             }
         }
+
         for (row in sheet) {
             var testCell = row.getCell(3)?.toString() ?: "null"
-            if (testCell.startsWith("2")) {
+            if (testCell.startsWith("1")) {
+                activeMap.set(
+                    mapOfCounts.getValue(testCell.take(5).toInt()).toInt(), Active(
+                        testCell.toDouble(),
+                        row.getCell(4).toString(),
+                        "debt",
+                        row.getCell(5).toString().toDouble() * -1
+                    )
+                )
+            } else if (testCell.startsWith("2")) {
                 passiveMap.set(
                     mapOfCounts.getValue(testCell.take(5).toInt()).toInt(), Passive(
                         testCell.toDouble(),
@@ -56,8 +75,9 @@ class BalanceCollector (pathToBalance:String) {
                     )
                 )
             }
-
         }
+
+        //Dumping costs and revenues
 
         sheet = reader.getSheet("CONTO ECONOMICO")
         //Dumping costs and revenues
@@ -72,8 +92,18 @@ class BalanceCollector (pathToBalance:String) {
                         row.getCell(2).toString().toDouble()
                     )
                 )
+            } else if (testCell.startsWith("4")) {
+                revenuesMap.set(
+                    mapOfCounts.getValue(testCell.take(5).toInt()).toInt(), Revenue (
+                        testCell.toDouble(),
+                        row.getCell(4).toString(),
+                        "revenue",
+                        row.getCell(5).toString().toDouble() * -1
+                    )
+                )
             }
         }
+
         for (row in sheet) {
             var testCell = row.getCell(3)?.toString() ?:"null"
             if (testCell.startsWith("4")) {
@@ -82,16 +112,25 @@ class BalanceCollector (pathToBalance:String) {
                         testCell.toDouble(),
                         row.getCell(4).toString(),
                         "revenue",
-                        row.getCell(5).toString().toDouble()
+                        row.getCell(5).toString().toDouble() * -1
+                    )
+                )
+            } else if (testCell.startsWith("3")) {
+                costsMap.set(
+                    mapOfCounts.getValue(testCell.take(5).toInt()).toInt(), Cost (
+                        testCell.toDouble(),
+                        row.getCell(1).toString(),
+                        "cost",
+                        row.getCell(2).toString().toDouble()
                     )
                 )
             }
         }
 
-        /*activeMap.forEach { el ->
+        activeMap.forEach { el ->
             println("${el.key} : ${el.value.id},${el.value.name},${el.value.type}, ${el.value.value}")
         }
-        passiveMap.forEach { el ->
+        /*passiveMap.forEach { el ->
             println("${el.key} : ${el.value.id},${el.value.name},${el.value.type}, ${el.value.value}")
         }
         costsMap.forEach { el ->

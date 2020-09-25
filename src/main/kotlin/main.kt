@@ -8,7 +8,7 @@ fun main() {
         |Passivo: ${b.totalPassive()}
         |Costi: ${b.totalCosts()}
         |Ricavi: ${b.totalRevenues()}
-        |Immobilizzazoni immateriali: ${b.intangibleAssets()}
+        
     """.trimMargin())
 
 }
