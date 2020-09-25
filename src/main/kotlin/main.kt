@@ -8,7 +8,10 @@ fun main() {
         |Passivo: ${b.totalPassive()}
         |Costi: ${b.totalCosts()}
         |Ricavi: ${b.totalRevenues()}
-        
-    """.trimMargin())
+        |Crediti v. soci: ${b.creditsVsAssociates()}
+        |Costi di impianto: ${b.plantCosts()} 
+        """.trimMargin())
+
+
 
 }
