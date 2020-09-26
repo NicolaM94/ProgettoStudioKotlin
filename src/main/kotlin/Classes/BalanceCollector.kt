@@ -339,7 +339,18 @@ class BalanceCollector (pathToBalance:String) {
 
     /**Passive MicroAreas*/
 
-
+    fun netWealth () :Double {
+        var result :Double = 0.00
+        passiveMap.forEach { el ->
+            var tester = floor(el.key).toInt()
+            if (tester in 20010..20790 || tester in 20810..20840 || tester in 20910..20950) {
+                result += el.value.value
+            } else if (tester in 20760..20795 || tester in 20860..20890) {
+                result -= el.value.value
+            }
+        }
+        return result
+    }
 
 
 

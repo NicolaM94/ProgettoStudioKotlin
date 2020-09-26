@@ -23,6 +23,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2253c220-387e-4bb7-aa26-3ec5e423e41e" name="Default Changelist" comment="Adding Assets functions">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/Classes/BalanceCollector.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Classes/BalanceCollector.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

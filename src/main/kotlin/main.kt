@@ -10,6 +10,7 @@ fun main() {
         |Ricavi: ${b.totalRevenues()}
         |Crediti v. soci: ${b.creditsVsAssociates()}
         |Costi di impianto: ${b.plantCosts()} 
+        |Patrimonio netto: ${b.netWealth()}
         """.trimMargin())
 
 
