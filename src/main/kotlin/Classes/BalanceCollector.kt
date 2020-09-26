@@ -159,7 +159,7 @@ class BalanceCollector (pathToBalance:String) {
         return result
     }
 
-    /**Assets MicroAreas*/
+    /**Active MicroAreas*/
     fun creditsVsAssociates () :Double {
         var result: Double = 0.00
         activeMap.forEach {el ->
@@ -208,7 +208,7 @@ class BalanceCollector (pathToBalance:String) {
     fun goodWill () :Double {
         return activeMap[11410.1]?.value ?: 0.00
     }
-    fun wipAssets () :Double {
+    fun wipIntagibleAssets () :Double {
         var result: Double = 0.00
         activeMap.forEach { el ->
             if (floor(el.key).toInt() in 11510..11520) {
@@ -252,5 +252,96 @@ class BalanceCollector (pathToBalance:String) {
         }
         return result
     }
+    fun wipTangibleAssets () :Double {
+        var result:Double = 0.00
+        activeMap.forEach { el ->
+            if (floor(el.key).toInt() in 12410..12420) result+=el.value.value
+        }
+        return result
+    }
+    fun partecipationsAssets () :Double {
+        var result :Double = 0.00
+        activeMap.forEach { el ->
+            if (floor(el.key).toInt() in 13010..13060) result+= el.value.value
+        }
+        return result
+    }
+    fun creditsAssets () :Double {
+        var result :Double = 0.00
+        activeMap.forEach { el ->
+            if (floor(el.key).toInt() in 13110..13170) result+=el.value.value
+        }
+        return result
+    }
+    fun bonds () :Double {
+        var result :Double = 0.00
+        activeMap.forEach { el ->
+            if (floor(el.key).toInt() in 13210..13280) result+=el.value.value
+        }
+        return result
+    }
+    fun propertyStocksAndOthers () :Double {
+        var result :Double = 0.00
+        activeMap.forEach { el ->
+            if (floor(el.key).toInt() in 13310..13570) result+=el.value.value
+        }
+        return result
+    }
+    fun inventories () :Double {
+        var result :Double = 0.00
+        activeMap.forEach { el ->
+            if (floor(el.key).toInt() in 14011..14060) result += el.value.value
+        }
+        return result
+    }
+    fun credits () :Double {
+        var result :Double = 0.00
+        activeMap.forEach { el ->
+            if (floor(el.key).toInt() in 14500..15150) result+= el.value.value
+        }
+        return result
+    }
+    fun taxCredits () :Double {
+        var result :Double = 0.00
+        activeMap.forEach { el ->
+            if (floor(el.key).toInt() in 16010.. 16520) result += el.value.value
+        }
+        return result
+    }
+    fun otherCredits () :Double {
+        var result :Double = 0.00
+        activeMap.forEach { el ->
+            if (floor(el.key).toInt() in 17010..17499) result += el.value.value
+        }
+        return result
+    }
+    fun bankAccounts () :Double {
+        var result :Double = 0.00
+        activeMap.forEach { el ->
+            if (floor(el.key).toInt() in 18010..18098) result += el.value.value
+        }
+        return result
+    }
+    fun cashAndChecks () :Double {
+        var result :Double = 0.00
+        activeMap.forEach { el ->
+            if (floor(el.key).toInt() in 18110..19010) result += el.value.value
+        }
+        return result
+    }
+    fun accrualsAndDeferrals () :Double {
+        var result :Double = 0.00
+        activeMap.forEach { el ->
+            if (floor(el.key).toInt() in 19110..192220) result += el.value.value
+        }
+        return result
+    }
+
+    /**Passive MicroAreas*/
+
+
+
+
+
 
 }
