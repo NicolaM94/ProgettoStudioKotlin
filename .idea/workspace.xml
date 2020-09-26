@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2253c220-387e-4bb7-aa26-3ec5e423e41e" name="Default Changelist" comment="Adding Assets functions">
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Classes/BalanceCollector.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Classes/BalanceCollector.kt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
+  </component>
+  <component name="ProjectId" id="1hqA7JADZiyEja57DVpXMdrd1mI" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/main" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="MainKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <module name="ProgettoStudioKotlin.main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.MainKt" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2253c220-387e-4bb7-aa26-3ec5e423e41e" name="Default Changelist" comment="" />
+      <created>1600728090479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600728090479</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Changing counts classes from one to Assets,Debts,Costs and Revenues">
+      <created>1600732182258</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1600732182258</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Changing counts classes from one to Assets,Debts,Costs and Revenues">
+      <created>1600968435439</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1600968435439</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Adding Assets functions">
+      <created>1601072948884</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601072948884</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Changing counts classes from one to Assets,Debts,Costs and Revenues" />
+    <MESSAGE value="Adding Assets functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Assets functions" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="743" y="300" width="432" height="488" key="FileChooserDialogImpl" timestamp="1600728124348">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="743" y="300" width="432" height="488" key="FileChooserDialogImpl/0.0.1920.1080@0.0.1920.1080" timestamp="1600728124348" />
+    <state width="1874" height="283" key="GridCell.Tab.0.bottom" timestamp="1601069740442">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="283" key="GridCell.Tab.0.bottom/0.0.1920.1080@0.0.1920.1080" timestamp="1601069740442" />
+    <state width="1874" height="283" key="GridCell.Tab.0.center" timestamp="1601069740442">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="283" key="GridCell.Tab.0.center/0.0.1920.1080@0.0.1920.1080" timestamp="1601069740442" />
+    <state width="1874" height="283" key="GridCell.Tab.0.left" timestamp="1601069740441">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="283" key="GridCell.Tab.0.left/0.0.1920.1080@0.0.1920.1080" timestamp="1601069740441" />
+    <state width="1874" height="283" key="GridCell.Tab.0.right" timestamp="1601069740442">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1874" height="283" key="GridCell.Tab.0.right/0.0.1920.1080@0.0.1920.1080" timestamp="1601069740442" />
+    <state x="457" y="173" key="SettingsEditor" timestamp="1601058954640">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="457" y="173" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1601058954640" />
+    <state x="556" y="276" key="Vcs.Push.Dialog.v2" timestamp="1601073065183">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="556" y="276" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1601073065183" />
+    <state x="763" y="457" width="392" height="174" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601062094306">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="763" y="457" width="392" height="174" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1080@0.0.1920.1080" timestamp="1601062094306" />
+  </component>
+</project>
