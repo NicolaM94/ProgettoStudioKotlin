@@ -16,8 +16,13 @@ fun main() {
         |Risconti e ratei attivi: ${b.activeAccrualsAndDeferrals()}
         |Risconti e ratei passivi: ${b.passiveAccrualsAndDeferrals()}
         |aaaa: ${b.associatesDebts()}
+        |Valore della produzione: ${b.productionValue()}
+        |Revenues: ${b.operativeEarnings()}
+        |Patrimonio netto : ${b.netWealth()}
+        |Result: ${b.result()}
         """.trimMargin())
 
-
-
+    val c = BalanceEvaluator(b,15420.00)
+    println(c.returnOnEquity())
+    println(c.returnOnInvestment())
 }

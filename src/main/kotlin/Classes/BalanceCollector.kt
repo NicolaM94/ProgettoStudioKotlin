@@ -3,6 +3,7 @@ package Classes
 import kotlin.math.floor
 import java.io.File
 import org.apache.poi.xssf.usermodel.XSSFWorkbook
+import tornadofx.populateTree
 import kotlin.math.cos
 
 
@@ -11,10 +12,10 @@ class BalanceCollector (pathToBalance:String) {
     private val path = File(pathToBalance)
     private val reader = XSSFWorkbook(path)
 
-    private val activeMap: MutableMap<Double, Active> = mutableMapOf()
-    private val passiveMap: MutableMap<Double,Passive> = mutableMapOf()
-    private val costsMap: MutableMap<Double,Cost> = mutableMapOf()
-    private val revenuesMap: MutableMap<Double,Revenue> = mutableMapOf()
+    val activeMap: MutableMap<Double, Active> = mutableMapOf()
+    val passiveMap: MutableMap<Double,Passive> = mutableMapOf()
+    val costsMap: MutableMap<Double,Cost> = mutableMapOf()
+    val revenuesMap: MutableMap<Double,Revenue> = mutableMapOf()
 
     /**Collecting values from the balance*/
     init {
@@ -101,7 +102,7 @@ class BalanceCollector (pathToBalance:String) {
                         testCell.toDouble(),
                         row.getCell(4).toString(),
                         "revenue",
-                        row.getCell(5).toString().toDouble() * -1
+                        row.getCell(5).toString().toDouble()
                     )
                 )
             } else if (testCell.startsWith("3")) {
@@ -110,7 +111,7 @@ class BalanceCollector (pathToBalance:String) {
                         testCell.toDouble(),
                         row.getCell(1).toString(),
                         "cost",
-                        row.getCell(2).toString().toDouble()
+                        row.getCell(2).toString().toDouble() *-1
                     )
                 )
             }
@@ -491,96 +492,60 @@ class BalanceCollector (pathToBalance:String) {
         return result
     }
 
-    /**Costs MicroAreas*/
-    fun suppliesAndBurdens () :Double {
-        var result:Double = 0.00
-        costsMap.forEach { el ->
-            if (floor(el.key).toInt() in 30010..30199) result += el.value.value
-            else if (floor(el.key).toInt() in 30210..30235) result += el.value.value
+    /**Revenues and Costs */
+    fun productionValue () :Double {
+        var result :Double = 0.00
+        revenuesMap.forEach{el->
+            if (floor(el.key).toInt() in 40010..40390) result+=el.value.value
+            else if (floor(el.key).toInt() in 40410..40490) result-=el.value.value
+            else if (floor(el.key).toInt() in 41010..41320) result+=el.value.value
+            else if (floor(el.key).toInt() == 41510) result -= el.value.value
         }
         return result
     }
-    fun industrialServices () :Double {
-        var result = 0.00
-        costsMap.forEach { el ->
-            if (floor(el.key).toInt() in 31011..31099) result += el.value.value
-        }
-        return result
-    }
-    fun commercialServices () :Double {
-        var result = 0.00
-        costsMap.forEach { el ->
-            if (floor(el.key).toInt() in 31110..31199) result += el.value.value
-        }
-        return result
-    }
-    fun utilities () :Double {
-        var result = 0.00
-        costsMap.forEach { el ->
-            if (floor(el.key).toInt() in 31211..31299) result+=el.value.value
-        }
-        return result
-    }
-    fun adminAndCollaboratos () :Double {
-        var result = 0.00
-        costsMap.forEach { el ->
-            if (floor(el.key).toInt() in 31310..31799) result+=el.value.value
-        }
-        return result
-    }
-    fun otherServices () :Double {
+    fun productionCosts () :Double {
         var result :Double = 0.00
         costsMap.forEach { el ->
-            if (floor(el.key).toInt() in 31810..31899) result += el.value.value
-            else if (floor(el.key).toInt() in 31910..31989) result -= el.value.value
+            val tester = floor(el.key).toInt()
+            if (tester in 30010..30199) result += el.value.value
+            else if (tester in 30210..30235) result -= el.value.value
+            else if (tester in 31011..31899) result += el.value.value
+            else if (tester in 31910..31989) result -= el.value.value
+            else if (tester in 32010..34799) result += el.value.value
+            else if (tester in 35201..35299) result += el.value.value
+            else if (tester == 35310) result -= 35310
         }
         return result
     }
-    fun mortgageAndLeasings () :Double {
+    fun operativeEarnings () :Double = productionValue() - productionCosts()
+    fun financialEarning () :Double {
         var result = 0.00
-        costsMap.forEach { el ->
-            if (floor(el.key).toInt() in 32010..32399) result += el.value.value
-            else if (floor(el.key).toInt() == 32410) result -= el.value.value
+        revenuesMap.forEach { el ->
+            if (floor(el.key).toInt() in 43010..43299) result += el.value.value
         }
         return result
     }
-    fun employeesAndSocialCost () :Double {
+    fun positiveAdjustments () :Double {
         var result = 0.00
-        costsMap.forEach { el ->
-            if (floor(el.key).toInt() in 33010..33499) result += el.value.value
+        revenuesMap.forEach { el ->
+            if (floor(el.key).toInt() in 43310..44199) result += el.value.value
         }
         return result
     }
-    fun amortizations () :Double {
-        var result = 0.00
+    fun negativeAdjustments () :Double {
+        var result :Double = 0.00
         costsMap.forEach { el ->
-            if (floor(el.key).toInt() in 34001..34136) result+=el.value.value
+            if (floor(el.key).toInt() in 37310..38199) result+=el.value.value
         }
         return result
     }
-    fun depreciations () :Double {
+    fun currentTaxes () :Double {
         var result = 0.00
-        costsMap.forEach { el ->
-            if (floor(el.key).toInt() in 34201..34799) result+=el.value.value
+        costsMap.forEach{el->
+            if (floor(el.key).toInt() in 39010..39170) result+=el.value.value
         }
-        return result
-    }
-    fun taxesAndRights () :Double {
-        var result = 0.00
-        costsMap.forEach { el ->
-            if (floor(el.key).toInt() in 35001..35199) result+=el.value.value
-        }
-        return result
-    }
-    fun otherCosts () :Double {
-        var result = 0.00
-        costsMap.forEach { el ->
-            if (floor(el.key).toInt() in 35201..35299) result+=el.value.value
-        }
-        result -= costsMap[35310.1]?.value ?:0.00
         return result
     }
 
-
-
+    fun result () :Double = totalRevenues()-totalCosts()
 }
