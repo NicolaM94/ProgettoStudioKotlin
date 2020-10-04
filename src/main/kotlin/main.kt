@@ -23,6 +23,9 @@ fun main() {
         """.trimMargin())
 
     val c = BalanceEvaluator(b,15420.00)
-    println(c.returnOnEquity())
-    println(c.returnOnInvestment())
+    println("Evaluating balance starts now ..")
+    println("ROE : ${c.returnOnEquity()}")
+    println("ROI: ${c.returnOnInvestment()}")
+    println("Independency rate: ${c.indipendenceRate()}")
+    println("Primary structure margin: ${c.primaryStrucMargin()}")
 }

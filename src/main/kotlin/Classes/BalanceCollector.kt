@@ -548,4 +548,5 @@ class BalanceCollector (pathToBalance:String) {
     }
 
     fun result () :Double = totalRevenues()-totalCosts()
+
 }
