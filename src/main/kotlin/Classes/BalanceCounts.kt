@@ -28,6 +28,8 @@ open class Active (id:Double, name:String, type:String, value:Double) :BalanceCo
     override var type:String = type
 
     override var value:Double = value
+
+
 }
 
 open class Passive (id:Double, name:String, type: String, value: Double) :BalanceCount(id,name,type,value) {
@@ -61,5 +63,7 @@ open class Revenue (id:Double, name: String, type: String, value: Double) :Balan
     override var type:String = type
 
     override var value:Double = value
+
+
 }
 

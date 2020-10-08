@@ -8,9 +8,10 @@ class BalanceEvaluator (val balance:BalanceCollector,val fatturato :Double) {
     fun returnOnInvestment () :Double {
         return (balance.operativeEarnings()/(balance.netWealth() + balance.longDebts())) * 100
     }
-    /*fun returnOnSales () :Double {
+
+    fun returnOnSales () :Double {
         return (balance.operativeEarnings()/fatturato) * 100
-    }*/
+    }
 
     //Indici patrimoniali
     fun indipendenceRate () :Double {
@@ -21,7 +22,10 @@ class BalanceEvaluator (val balance:BalanceCollector,val fatturato :Double) {
        return balance.netWealth()*100/(balance.totalFixedAssets() - balance.totalMortFunds())
     }
 
+    fun secondaryStrucMargin () :Double {
+        return balance.totalFixedAssets() * 100/balance.consolidatedSources()
 
+    }
 
 
 }

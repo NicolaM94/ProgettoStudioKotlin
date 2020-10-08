@@ -28,4 +28,5 @@ fun main() {
     println("Roe: ${ c.returnOnEquity() }")
     println("ROI: ${ c.returnOnInvestment() }")
     println("Primary Structure Margin: ${ c.primaryStrucMargin() }")
+    println("Secondary Structure Margin: ${c.secondaryStrucMargin()}")
 }

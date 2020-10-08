@@ -510,6 +510,12 @@ class BalanceCollector (pathToBalance:String) {
         )
         return arrayOfFunds.sum()
     }
+    fun consolidatedSources () :Double {
+        val listOfSources :Array<Double> = arrayOf(
+            netWealth(),riskFunds(),severanceIndemnities(),longDebts()
+        )
+        return listOfSources.sum()
+    }
 
 
     /**Revenues and Costs */
