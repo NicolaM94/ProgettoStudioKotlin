@@ -1,4 +1,6 @@
 import Classes.*
+import tornadofx.*
+import kotlin.math.round
 
 fun main() {
 
@@ -23,9 +25,7 @@ fun main() {
         """.trimMargin())
 
     val c = BalanceEvaluator(b,15420.00)
-    println("Evaluating balance starts now ..")
-    println("ROE : ${c.returnOnEquity()}")
-    println("ROI: ${c.returnOnInvestment()}")
-    println("Independency rate: ${c.indipendenceRate()}")
-    println("Primary structure margin: ${c.primaryStrucMargin()}")
+    println("Roe: ${ c.returnOnEquity() }")
+    println("ROI: ${ c.returnOnInvestment() }")
+    println("Primary Structure Margin: ${ c.primaryStrucMargin() }")
 }

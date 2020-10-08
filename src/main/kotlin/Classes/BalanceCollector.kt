@@ -4,6 +4,7 @@ import kotlin.math.floor
 import java.io.File
 import org.apache.poi.xssf.usermodel.XSSFWorkbook
 import tornadofx.populateTree
+import java.util.function.DoubleToLongFunction
 import kotlin.math.cos
 
 
@@ -339,6 +340,15 @@ class BalanceCollector (pathToBalance:String) {
         return result
     }
 
+    fun totalFixedAssets () :Double {
+        val arrayOfCounts = arrayOf(plantCosts(), rAndDCosts(),patents(),licences(),goodWill(),
+            wipIntagibleAssets(),fieldsAndEstate(),machineriesAndImplants(),equipments(),
+            otherGoods(),wipIntagibleAssets(),partecipationsAssets(),creditsAssets(),
+            bonds(),propertyStocksAndOthers(),wipTangibleAssets(),otherFixedAssets())
+
+        return arrayOfCounts.sum()
+    }
+
     /**Passive MicroAreas*/
     fun netWealth () :Double {
         var result :Double = 0.00
@@ -491,6 +501,16 @@ class BalanceCollector (pathToBalance:String) {
         }
         return result
     }
+
+    fun totalMortFunds () :Double {
+        val arrayOfFunds :Array<Double> = arrayOf(
+                faPatents(),faPlantCosts(),faReDCosts(),faLicenes(),faGoodWill(),
+                faOtherFixedAssets(),faFieldsAndEstate(),faMachineriesAndImplants(),
+                faEquipments(),faOtherGoods()
+        )
+        return arrayOfFunds.sum()
+    }
+
 
     /**Revenues and Costs */
     fun productionValue () :Double {
